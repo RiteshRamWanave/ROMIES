@@ -1,0 +1,78 @@
+---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 2024-10-20 07:46:34
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: justmobheads --
+Details:
+	Mod file: /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+	Failure message: Mod justmobheads requires collective 7.80 or above
+		Currently, collective is not installed
+		
+	Mod version: 8.3
+	Mod issues URL: https://github.com/Serilum/.issue-tracker/labels/Mod:%20Just%20Mob%20Heads
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.8.0-1016-aws
+	Java Version: 21.0.4, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 3997171712 bytes (3812 MiB) / 4294967296 bytes (4096 MiB) up to 7516192768 bytes (7168 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+	Identifier: Intel64 Family 6 Model 79 Stepping 1
+	Microarchitecture: Broadwell (Server)
+	Frequency (GHz): 2.30
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 2
+	Graphics card #0 name: GD 5446
+	Graphics card #0 vendor: Cirrus Logic (0x1013)
+	Graphics card #0 VRAM (MiB): 32.00
+	Graphics card #0 deviceId: 0x00b8
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MiB): 3969.11
+	Virtual memory used (MiB): 1845.82
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 5446.07, total: 8853.38
+	Space in storage for workdir (MiB): available: 26778.23, total: 30065.91
+	JVM Flags: 2 total; -Xmx7G -Xms4G
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.29.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.29.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.29.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar spongeneo TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar superclass_change TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar access_widener TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		java_plain@1.21.1-21.1.35-12.0.0-RC1851
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		server-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.72-universal.jar                    |NeoForge                      |neoforge                      |21.1.72             |Manifest: NOSIGNATURE
