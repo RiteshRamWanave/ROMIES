@@ -6,7 +6,7 @@ screen -S mcs -X stuff "stop\n"
 
 cd /mnt/ebs/mcs/bcs
 rm -rf neodata
-csdfsdfap -r ../neodata/ .
+cp -r ../neodata/ .
 git add .
 git commit -m "Auto commit"
 git push
