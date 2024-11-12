@@ -701,6 +701,7 @@
       "minecraft:bogged": "2024-10-26 06:21:28 +0000",
       "minecraft:ghast": "2024-10-21 14:02:29 +0000",
       "minecraft:cave_spider": "2024-10-20 16:44:45 +0000",
+      "minecraft:piglin": "2024-11-12 10:09:31 +0000",
       "minecraft:guardian": "2024-10-29 11:31:27 +0000",
       "minecraft:vindicator": "2024-10-23 18:43:41 +0000",
       "minecraft:breeze": "2024-10-26 06:39:17 +0000",
@@ -4723,6 +4724,54 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2024-11-08 12:53:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-11-12 09:59:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-11-12 09:59:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_door": {
+    "criteria": {
+      "has_copper_ingot": "2024-11-12 09:59:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-11-12 09:59:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2024-11-12 09:59:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-11-12 10:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-11-12 10:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/read_power_of_chiseled_bookshelf": {
+    "criteria": {
+      "comparator": "2024-11-12 10:23:43 +0000"
     },
     "done": true
   },
