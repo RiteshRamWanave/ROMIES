@@ -49,3 +49,61 @@
 [12Nov2024 06:03:56.445] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
 [12Nov2024 06:03:56.522] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
 [12Nov2024 06:03:58.632] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Nov2024 06:04:13.860] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.84.
+[12Nov2024 06:04:13.938] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.72, for MC 1.21.1
+[12Nov2024 06:04:15.373] [modloading-worker-0/INFO] [luckperms/]:         __    
+[12Nov2024 06:04:15.374] [modloading-worker-0/INFO] [luckperms/]:   |    |__)   LuckPerms v5.4.141
+[12Nov2024 06:04:15.374] [modloading-worker-0/INFO] [luckperms/]:   |___ |      Running on Sponge - SpongeNeo
+[12Nov2024 06:04:15.374] [modloading-worker-0/INFO] [luckperms/]: 
+[12Nov2024 06:04:15.375] [modloading-worker-0/INFO] [luckperms/]: Loading configuration...
+[12Nov2024 06:04:15.647] [modloading-worker-0/INFO] [luckperms/]: Loading storage provider... [H2]
+[12Nov2024 06:04:16.500] [modloading-worker-0/INFO] [luckperms/]: Loading internal permission managers...
+[12Nov2024 06:04:16.618] [modloading-worker-0/INFO] [luckperms/]: Performing initial data load...
+[12Nov2024 06:04:16.758] [modloading-worker-0/INFO] [luckperms/]: Successfully enabled. (took 1453ms)
+[12Nov2024 06:04:16.809] [modloading-worker-0/INFO] [sponge/]: Registered service [PaginationService] to plugin 'sponge'.
+[12Nov2024 06:04:16.833] [modloading-worker-0/INFO] [spongeneo/]: SpongeNeo v1.21.1-21.1.35-12.0.0-RC1851 initialized
+[12Nov2024 06:04:17.090] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12Nov2024 06:04:18.593] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
+[12Nov2024 06:04:18.593] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
+[12Nov2024 06:04:19.803] [main/INFO] [sponge/]: Layer DIMENSIONS
+[12Nov2024 06:04:19.912] [main/INFO] [sponge/]: Layer RELOADABLE
+[12Nov2024 06:04:21.280] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[12Nov2024 06:04:21.714] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[12Nov2024 06:04:22.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[12Nov2024 06:04:22.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Nov2024 06:04:22.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Nov2024 06:04:22.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Nov2024 06:04:22.681] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Nov2024 06:04:22.770] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Nov2024 06:04:22.845] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Nov2024 06:04:22.845] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Nov2024 06:04:22.846] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Nov2024 06:04:22.846] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Nov2024 06:04:22.936] [Server thread/INFO] [sponge/]: Registered service [BanService] to plugin 'sponge'.
+[12Nov2024 06:04:22.938] [Server thread/INFO] [sponge/]: Registered service [ContextService] to plugin 'luckperms'.
+[12Nov2024 06:04:22.939] [Server thread/INFO] [sponge/]: Registered service [PermissionService] to plugin 'luckperms'.
+[12Nov2024 06:04:22.941] [Server thread/INFO] [sponge/]: Registered service [WhitelistService] to plugin 'sponge'.
+[12Nov2024 06:04:22.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Nov2024 06:04:22.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:overworld' (minecraft:overworld)
+[12Nov2024 06:04:23.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_nether' (minecraft:the_nether)
+[12Nov2024 06:04:30.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_end' (minecraft:the_end)
+[12Nov2024 06:04:30.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for world 'minecraft:overworld' (minecraft:overworld)
+[12Nov2024 06:04:31.795] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Nov2024 06:04:31.796] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Nov2024 06:04:31.798] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Nov2024 06:04:32.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Nov2024 06:04:32.594] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[12Nov2024 06:04:33.131] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[12Nov2024 06:04:34.151] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3559 ms
+[12Nov2024 06:04:34.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.272s)! For help, type "help"
+[12Nov2024 06:04:34.191] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12Nov2024 06:04:34.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[12Nov2024 06:04:35.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[12Nov2024 06:04:35.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Nov2024 06:04:36.048] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[12Nov2024 06:04:36.057] [Server thread/INFO] [luckperms/]: Closing storage...
+[12Nov2024 06:04:36.097] [Server thread/INFO] [luckperms/]: Goodbye!
+[12Nov2024 06:04:36.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Nov2024 06:04:36.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Nov2024 06:04:36.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Nov2024 06:04:37.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
