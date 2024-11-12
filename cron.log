@@ -2014,3 +2014,20 @@ After doing this, you may fix the identity used for this commit with:
  21 files changed, 4699 insertions(+)
 To github.com:RiteshRamWanave/ROMIES.git
    b956616..8284863  main -> main
+[main 0227568] Auto commit
+ Committer: root <root@ip-10-0-130-128.ap-south-1.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 34 files changed, 5142 insertions(+), 5119 deletions(-)
+To github.com:RiteshRamWanave/ROMIES.git
+   8284863..0227568  main -> main
