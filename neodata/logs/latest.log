@@ -1,42 +1,42 @@
-[12Nov2024 18:05:57.673] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.72, --fml.fmlVersion, 4.0.29, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[12Nov2024 18:05:57.676] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
-[12Nov2024 18:05:57.678] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-aws
-[12Nov2024 18:05:57.836] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[12Nov2024 18:05:57.911] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
-[12Nov2024 18:05:58.289] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.72:server]
-[12Nov2024 18:05:58.312] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.72-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]], reader: mod manifest]
-[12Nov2024 18:05:58.324] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "spongeneo-lang.jar" [locator: spongeneo, reader: mod manifest]
-[12Nov2024 18:05:58.470] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spongeneo-mod.jar" [locator: spongeneo, reader: mod manifest]
-[12Nov2024 18:05:58.601] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LuckPerms-Sponge-5.4.141.jar" [locator: plugins directory, reader: sponge manifest]
-[12Nov2024 18:05:58.615] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-7.84.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
-[12Nov2024 18:05:58.621] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justmobheads-1.21.1-8.3.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
-[12Nov2024 18:05:58.632] [main/INFO] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: Scanning and verifying libraries in './sponge-libraries'. Please wait, this may take a moment...
-[12Nov2024 18:05:58.701] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-gson-4.1.2.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.705] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "caffeine-3.1.8.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.705] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-plain-4.17.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.706] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-legacy-4.17.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.706] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-api-4.17.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.711] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-api-1.3.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.713] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "guice-5.0.1.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.714] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "annotations-24.1.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.715] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "snakeyaml-1.28.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.716] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-serializer-configurate4-4.17.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.716] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-key-4.17.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.717] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "auto-service-annotations-1.1.1.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.720] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-extra-guice-4.1.2.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.720] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-string-1.3.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.721] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-minimessage-4.17.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.722] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "option-1.0.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.722] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "aopalliance-1.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.723] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-json-4.17.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.724] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "math-2.0.1.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.727] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-yaml-4.1.2.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.727] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "javax.inject-1.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.729] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-gson-4.17.0.jar" [locator: spongeneo]
-[12Nov2024 18:05:58.771] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[12Nov2024 18:05:58.771] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
-[12Nov2024 18:05:58.772] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.72.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
-[12Nov2024 18:05:58.773] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[12Nov2024 18:07:03.407] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.72, --fml.fmlVersion, 4.0.29, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[12Nov2024 18:07:03.409] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
+[12Nov2024 18:07:03.410] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-aws
+[12Nov2024 18:07:03.578] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Nov2024 18:07:03.663] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
+[12Nov2024 18:07:04.149] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.72:server]
+[12Nov2024 18:07:04.168] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.72-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]], reader: mod manifest]
+[12Nov2024 18:07:04.185] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "spongeneo-lang.jar" [locator: spongeneo, reader: mod manifest]
+[12Nov2024 18:07:04.327] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spongeneo-mod.jar" [locator: spongeneo, reader: mod manifest]
+[12Nov2024 18:07:04.434] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LuckPerms-Sponge-5.4.141.jar" [locator: plugins directory, reader: sponge manifest]
+[12Nov2024 18:07:04.448] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-7.84.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
+[12Nov2024 18:07:04.452] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justmobheads-1.21.1-8.3.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
+[12Nov2024 18:07:04.473] [main/INFO] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: Scanning and verifying libraries in './sponge-libraries'. Please wait, this may take a moment...
+[12Nov2024 18:07:04.562] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-extra-guice-4.1.2.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.564] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "math-2.0.1.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.568] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "javax.inject-1.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.569] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-legacy-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.570] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-api-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.573] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-api-1.3.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.574] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-json-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.576] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "guice-5.0.1.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.576] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "auto-service-annotations-1.1.1.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.578] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-plain-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.579] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "annotations-24.1.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.582] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-minimessage-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.584] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "aopalliance-1.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.585] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-serializer-configurate4-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.586] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "caffeine-3.1.8.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.588] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-key-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.590] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-gson-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.590] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "option-1.0.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.596] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-gson-4.1.2.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.603] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-yaml-4.1.2.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.604] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-string-1.3.0.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.605] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "snakeyaml-1.28.jar" [locator: spongeneo]
+[12Nov2024 18:07:04.665] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12Nov2024 18:07:04.666] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
+[12Nov2024 18:07:04.666] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.72.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
+[12Nov2024 18:07:04.667] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -46,67 +46,66 @@
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.72 (neoforge)
 		SpongeNeo 1.21.1-21.1.35-12.0.0-RC1851 (spongeneo)
-[12Nov2024 18:06:00.810] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[12Nov2024 18:06:00.875] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[12Nov2024 18:06:03.514] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12Nov2024 18:06:18.368] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.84.
-[12Nov2024 18:06:18.456] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.72, for MC 1.21.1
-[12Nov2024 18:06:19.573] [modloading-worker-0/INFO] [luckperms/]:         __    
-[12Nov2024 18:06:19.574] [modloading-worker-0/INFO] [luckperms/]:   |    |__)   LuckPerms v5.4.141
-[12Nov2024 18:06:19.574] [modloading-worker-0/INFO] [luckperms/]:   |___ |      Running on Sponge - SpongeNeo
-[12Nov2024 18:06:19.574] [modloading-worker-0/INFO] [luckperms/]: 
-[12Nov2024 18:06:19.575] [modloading-worker-0/INFO] [luckperms/]: Loading configuration...
-[12Nov2024 18:06:19.830] [modloading-worker-0/INFO] [luckperms/]: Loading storage provider... [H2]
-[12Nov2024 18:06:20.406] [modloading-worker-0/INFO] [luckperms/]: Loading internal permission managers...
-[12Nov2024 18:06:20.498] [modloading-worker-0/INFO] [luckperms/]: Performing initial data load...
-[12Nov2024 18:06:20.611] [modloading-worker-0/INFO] [luckperms/]: Successfully enabled. (took 1107ms)
-[12Nov2024 18:06:20.703] [modloading-worker-0/INFO] [sponge/]: Registered service [PaginationService] to plugin 'sponge'.
-[12Nov2024 18:06:20.719] [modloading-worker-0/INFO] [spongeneo/]: SpongeNeo v1.21.1-21.1.35-12.0.0-RC1851 initialized
-[12Nov2024 18:06:20.933] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12Nov2024 18:06:22.784] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
-[12Nov2024 18:06:22.786] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
-[12Nov2024 18:06:23.911] [main/INFO] [sponge/]: Layer DIMENSIONS
-[12Nov2024 18:06:24.018] [main/INFO] [sponge/]: Layer RELOADABLE
-[12Nov2024 18:06:25.527] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[12Nov2024 18:06:25.955] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[12Nov2024 18:06:26.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[12Nov2024 18:06:26.811] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12Nov2024 18:06:26.811] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12Nov2024 18:06:26.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Nov2024 18:06:26.852] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[12Nov2024 18:06:26.948] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[12Nov2024 18:06:27.026] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12Nov2024 18:06:27.027] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12Nov2024 18:06:27.027] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12Nov2024 18:06:27.027] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12Nov2024 18:06:27.101] [Server thread/INFO] [sponge/]: Registered service [BanService] to plugin 'sponge'.
-[12Nov2024 18:06:27.105] [Server thread/INFO] [sponge/]: Registered service [ContextService] to plugin 'luckperms'.
-[12Nov2024 18:06:27.110] [Server thread/INFO] [sponge/]: Registered service [PermissionService] to plugin 'luckperms'.
-[12Nov2024 18:06:27.114] [Server thread/INFO] [sponge/]: Registered service [WhitelistService] to plugin 'sponge'.
-[12Nov2024 18:06:27.128] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12Nov2024 18:06:27.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:overworld' (minecraft:overworld)
-[12Nov2024 18:06:27.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_nether' (minecraft:the_nether)
-[12Nov2024 18:06:35.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_end' (minecraft:the_end)
-[12Nov2024 18:06:35.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for world 'minecraft:overworld' (minecraft:overworld)
-[12Nov2024 18:06:37.734] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2024 18:06:37.737] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2024 18:06:37.737] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2024 18:06:37.737] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2024 18:06:37.797] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2024 18:06:38.335] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2024 18:06:38.800] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[12Nov2024 18:06:39.320] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[12Nov2024 18:06:39.792] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[12Nov2024 18:06:40.405] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4615 ms
-[12Nov2024 18:06:40.423] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.369s)! For help, type "help"
-[12Nov2024 18:06:40.493] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[12Nov2024 18:06:40.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
-[12Nov2024 18:06:42.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
-[12Nov2024 18:06:42.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[12Nov2024 18:06:42.304] [Server thread/INFO] [luckperms/]: Starting shutdown process...
-[12Nov2024 18:06:42.309] [Server thread/INFO] [luckperms/]: Closing storage...
-[12Nov2024 18:06:42.351] [Server thread/INFO] [luckperms/]: Goodbye!
-[12Nov2024 18:06:42.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12Nov2024 18:06:42.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12Nov2024 18:06:42.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12Nov2024 18:06:43.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Nov2024 18:07:06.787] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[12Nov2024 18:07:06.860] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[12Nov2024 18:07:08.853] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Nov2024 18:07:28.385] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.84.
+[12Nov2024 18:07:28.532] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.72, for MC 1.21.1
+[12Nov2024 18:07:30.765] [modloading-worker-0/INFO] [luckperms/]:         __    
+[12Nov2024 18:07:30.766] [modloading-worker-0/INFO] [luckperms/]:   |    |__)   LuckPerms v5.4.141
+[12Nov2024 18:07:30.766] [modloading-worker-0/INFO] [luckperms/]:   |___ |      Running on Sponge - SpongeNeo
+[12Nov2024 18:07:30.766] [modloading-worker-0/INFO] [luckperms/]: 
+[12Nov2024 18:07:30.767] [modloading-worker-0/INFO] [luckperms/]: Loading configuration...
+[12Nov2024 18:07:31.213] [modloading-worker-0/INFO] [luckperms/]: Loading storage provider... [H2]
+[12Nov2024 18:07:31.988] [modloading-worker-0/INFO] [luckperms/]: Loading internal permission managers...
+[12Nov2024 18:07:32.102] [modloading-worker-0/INFO] [luckperms/]: Performing initial data load...
+[12Nov2024 18:07:32.263] [modloading-worker-0/INFO] [luckperms/]: Successfully enabled. (took 1708ms)
+[12Nov2024 18:07:32.347] [modloading-worker-0/INFO] [sponge/]: Registered service [PaginationService] to plugin 'sponge'.
+[12Nov2024 18:07:32.364] [modloading-worker-0/INFO] [spongeneo/]: SpongeNeo v1.21.1-21.1.35-12.0.0-RC1851 initialized
+[12Nov2024 18:07:32.601] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12Nov2024 18:07:34.634] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
+[12Nov2024 18:07:34.637] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
+[12Nov2024 18:07:35.983] [main/INFO] [sponge/]: Layer DIMENSIONS
+[12Nov2024 18:07:36.145] [main/INFO] [sponge/]: Layer RELOADABLE
+[12Nov2024 18:07:37.351] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[12Nov2024 18:07:37.698] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[12Nov2024 18:07:38.575] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[12Nov2024 18:07:38.575] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Nov2024 18:07:38.575] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Nov2024 18:07:38.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Nov2024 18:07:38.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Nov2024 18:07:38.692] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Nov2024 18:07:38.760] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Nov2024 18:07:38.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Nov2024 18:07:38.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Nov2024 18:07:38.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Nov2024 18:07:38.854] [Server thread/INFO] [sponge/]: Registered service [BanService] to plugin 'sponge'.
+[12Nov2024 18:07:38.855] [Server thread/INFO] [sponge/]: Registered service [ContextService] to plugin 'luckperms'.
+[12Nov2024 18:07:38.856] [Server thread/INFO] [sponge/]: Registered service [PermissionService] to plugin 'luckperms'.
+[12Nov2024 18:07:38.858] [Server thread/INFO] [sponge/]: Registered service [WhitelistService] to plugin 'sponge'.
+[12Nov2024 18:07:38.867] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Nov2024 18:07:38.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:overworld' (minecraft:overworld)
+[12Nov2024 18:07:39.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_nether' (minecraft:the_nether)
+[12Nov2024 18:07:48.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_end' (minecraft:the_end)
+[12Nov2024 18:07:48.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for world 'minecraft:overworld' (minecraft:overworld)
+[12Nov2024 18:07:49.108] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Nov2024 18:07:49.108] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Nov2024 18:07:49.231] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Nov2024 18:07:49.865] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[12Nov2024 18:07:50.277] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[12Nov2024 18:07:50.733] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[12Nov2024 18:07:51.073] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2844 ms
+[12Nov2024 18:07:51.080] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.275s)! For help, type "help"
+[12Nov2024 18:07:51.118] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12Nov2024 18:07:51.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[12Nov2024 18:07:52.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[12Nov2024 18:07:52.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Nov2024 18:07:52.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[12Nov2024 18:07:52.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ./run.sh<--[HERE]
+[12Nov2024 18:07:52.224] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[12Nov2024 18:07:52.228] [Server thread/INFO] [luckperms/]: Closing storage...
+[12Nov2024 18:07:52.272] [Server thread/INFO] [luckperms/]: Goodbye!
+[12Nov2024 18:07:52.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Nov2024 18:07:52.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Nov2024 18:07:52.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Nov2024 18:07:53.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
