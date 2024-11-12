@@ -1,5 +1,879 @@
-[12Nov2024 18:36:01.339] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.72, --fml.fmlVersion, 4.0.29, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[12Nov2024 18:36:01.347] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
-[12Nov2024 18:36:01.353] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-aws
-[12Nov2024 18:36:01.416] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
-[12Nov2024 18:36:01.444] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[12Nov2024 18:36:58.391] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.72, --fml.fmlVersion, 4.0.29, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[12Nov2024 18:36:58.393] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
+[12Nov2024 18:36:58.396] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-aws
+[12Nov2024 18:36:58.424] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
+[12Nov2024 18:36:58.451] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[12Nov2024 18:36:58.463] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[12Nov2024 18:36:58.469] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /mnt/ebs/mcs/neodata
+[12Nov2024 18:36:58.469] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /mnt/ebs/mcs/neodata/mods
+[12Nov2024 18:36:58.469] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /mnt/ebs/mcs/neodata/config
+[12Nov2024 18:36:58.470] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /mnt/ebs/mcs/neodata/config/fml.toml
+[12Nov2024 18:36:58.521] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /mnt/ebs/mcs/neodata/config/fml.toml
+[12Nov2024 18:36:58.521] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[12Nov2024 18:36:58.521] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[12Nov2024 18:36:58.522] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[12Nov2024 18:36:58.538] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [/mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar]
+[12Nov2024 18:36:58.558] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Nov2024 18:36:58.576] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml,spongeneo,superclass_change,access_widener]
+[12Nov2024 18:36:58.576] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[12Nov2024 18:36:58.577] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[12Nov2024 18:36:58.577] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[12Nov2024 18:36:58.577] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[12Nov2024 18:36:58.578] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 4.0.29 loading
+[12Nov2024 18:36:58.578] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 11.0.4+main.d2e20e43
+[12Nov2024 18:36:58.578] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[12Nov2024 18:36:58.579] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[12Nov2024 18:36:58.579] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[12Nov2024 18:36:58.579] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[12Nov2024 18:36:58.579] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service spongeneo
+[12Nov2024 18:36:58.579] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service spongeneo
+[12Nov2024 18:36:58.579] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service superclass_change
+[12Nov2024 18:36:58.580] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service superclass_change
+[12Nov2024 18:36:58.580] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service access_widener
+[12Nov2024 18:36:58.582] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service access_widener
+[12Nov2024 18:36:58.584] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[12Nov2024 18:36:58.607] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=21.1.72, fmlVersion=4.0.29, mcVersion=1.21.1, neoFormVersion=20240808.144430]
+[12Nov2024 18:36:58.610] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[12Nov2024 18:36:58.610] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[12Nov2024 18:36:58.622] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@2db7a79b
+[12Nov2024 18:36:58.634] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
+[12Nov2024 18:36:58.638] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[12Nov2024 18:36:58.638] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Nov2024 18:36:58.640] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Nov2024 18:36:58.640] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Nov2024 18:36:58.640] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Nov2024 18:36:58.640] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Nov2024 18:36:58.643] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[12Nov2024 18:36:58.643] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[12Nov2024 18:36:58.643] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[12Nov2024 18:36:58.644] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /mnt/ebs/mcs/neodata
+[12Nov2024 18:36:58.644] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /mnt/ebs/mcs/neodata/mods
+[12Nov2024 18:36:58.644] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /mnt/ebs/mcs/neodata/config
+[12Nov2024 18:36:58.644] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /mnt/ebs/mcs/neodata/config/fml.toml
+[12Nov2024 18:36:58.644] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[12Nov2024 18:36:58.648] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /mnt/ebs/mcs/neodata/config/fml.toml
+[12Nov2024 18:36:58.648] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[12Nov2024 18:36:58.648] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[12Nov2024 18:36:58.649] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
+[12Nov2024 18:36:58.649] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[12Nov2024 18:36:58.649] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[12Nov2024 18:36:58.649] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[12Nov2024 18:36:58.649] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[12Nov2024 18:36:58.650] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[12Nov2024 18:36:58.650] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[12Nov2024 18:36:58.650] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[12Nov2024 18:36:58.650] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[12Nov2024 18:36:58.650] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[12Nov2024 18:36:58.650] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[12Nov2024 18:36:58.652] [main/DEBUG] [net.neoforged.fml.loading.LaunchContext/SCAN]: Located paths when launch context was created: [/mnt/ebs/mcs/neodata/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar, /mnt/ebs/mcs/neodata/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar, /mnt/ebs/mcs/neodata/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar, /mnt/ebs/mcs/neodata/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-extra.jar, /mnt/ebs/mcs/neodata/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar, /mnt/ebs/mcs/neodata/libraries/com/electronwill/night-config/toml/3.8.0/toml-3.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /mnt/ebs/mcs/neodata/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar, /mnt/ebs/mcs/neodata/libraries/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar, /mnt/ebs/mcs/neodata/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar, /mnt/ebs/mcs/neodata/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/fancymodloader/loader/4.0.29/loader-4.0.29.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar, /mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar, /mnt/ebs/mcs/neodata/libraries/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar, /mnt/ebs/mcs/neodata/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/mergetool/2.0.3/mergetool-2.0.3-api.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/bus/8.0.2/bus-8.0.2.jar, /mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar, /mnt/ebs/mcs/neodata/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar, /mnt/ebs/mcs/neodata/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.29/earlydisplay-4.0.29.jar, /mnt/ebs/mcs/neodata/libraries/com/electronwill/night-config/core/3.8.0/core-3.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar, /mnt/ebs/mcs/neodata/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar, /mnt/ebs/mcs/neodata/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar, /mnt/ebs/mcs/neodata/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /mnt/ebs/mcs/neodata/libraries/cpw/mods/modlauncher/11.0.4/modlauncher-11.0.4.jar, /mnt/ebs/mcs/neodata/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar, /mnt/ebs/mcs/neodata/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar]
+[12Nov2024 18:36:58.653] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[12Nov2024 18:36:58.654] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[12Nov2024 18:36:58.655] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist DEDICATED_SERVER
+[12Nov2024 18:36:58.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[12Nov2024 18:36:58.657] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service spongeneo
+[12Nov2024 18:36:58.659] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service spongeneo
+[12Nov2024 18:36:58.659] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service superclass_change
+[12Nov2024 18:36:58.659] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service superclass_change
+[12Nov2024 18:36:58.659] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service access_widener
+[12Nov2024 18:36:58.660] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service access_widener
+[12Nov2024 18:36:58.660] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[12Nov2024 18:36:58.660] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[12Nov2024 18:36:58.661] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[12Nov2024 18:36:58.661] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[12Nov2024 18:36:58.661] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[12Nov2024 18:36:58.863] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 7 implementations of IModFileCandidateLocator:
+[12Nov2024 18:36:58.865] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ProductionServerProvider from loader-4.0.29.jar
+[12Nov2024 18:36:58.868] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.PathBasedLocator from loader-4.0.29.jar
+[12Nov2024 18:36:58.869] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoModLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[12Nov2024 18:36:58.869] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.locator.EnvironmentPluginLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[12Nov2024 18:36:58.869] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.locator.PluginsDirectoryLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[12Nov2024 18:36:58.870] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from loader-4.0.29.jar
+[12Nov2024 18:36:58.870] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.MavenDirectoryLocator from loader-4.0.29.jar
+[12Nov2024 18:36:58.872] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 3 implementations of IModFileReader:
+[12Nov2024 18:36:58.873] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.reader.PluginFileReader from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[12Nov2024 18:36:58.874] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from loader-4.0.29.jar
+[12Nov2024 18:36:58.874] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from loader-4.0.29.jar
+[12Nov2024 18:36:58.876] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IDependencyLocator:
+[12Nov2024 18:36:58.876] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[12Nov2024 18:36:58.876] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from loader-4.0.29.jar
+[12Nov2024 18:36:58.876] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 7 ways to find mods
+[12Nov2024 18:36:58.877] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator production server provider +net.neoforged:neoforge:21.1.72:server
+[12Nov2024 18:36:59.019] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
+[12Nov2024 18:36:59.019] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.72:server]
+[12Nov2024 18:36:59.020] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator production server provider +net.neoforged:neoforge:21.1.72:server found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Nov2024 18:36:59.021] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]]
+[12Nov2024 18:36:59.025] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[12Nov2024 18:36:59.025] [main/DEBUG] [app launch/]: Plugin file '/mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.027] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[12Nov2024 18:36:59.028] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[12Nov2024 18:36:59.040] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.72-universal.jar with {neoforge} mods - versions {21.1.72}
+[12Nov2024 18:36:59.040] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.72-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]], reader: mod manifest]
+[12Nov2024 18:36:59.041] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]] found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Nov2024 18:36:59.041] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator spongeneo
+[12Nov2024 18:36:59.051] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[12Nov2024 18:36:59.052] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.052] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[12Nov2024 18:36:59.053] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "spongeneo-lang.jar" [locator: spongeneo, reader: mod manifest]
+[12Nov2024 18:36:59.189] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[12Nov2024 18:36:59.189] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.190] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: 
+[12Nov2024 18:36:59.190] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[12Nov2024 18:36:59.200] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file spongeneo-mod.jar with {spongeneo,sponge,spongeapi} mods - versions {1.21.1-21.1.35-12.0.0-RC1851,1.21.1-21.1.35-12.0.0-RC1851,12.0.0}
+[12Nov2024 18:36:59.201] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spongeneo-mod.jar" [locator: spongeneo, reader: mod manifest]
+[12Nov2024 18:36:59.201] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator spongeneo found 2 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Nov2024 18:36:59.201] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator environment plugin
+[12Nov2024 18:36:59.201] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator environment plugin found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Nov2024 18:36:59.201] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator plugins directory
+[12Nov2024 18:36:59.201] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir /mnt/ebs/mcs/neodata/mods/plugins for mods
+[12Nov2024 18:36:59.202] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/mods/plugins/LuckPerms-Sponge-5.4.141.jar
+[12Nov2024 18:36:59.297] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file LuckPerms-Sponge-5.4.141.jar with {luckperms} mods - versions {5.4.141}
+[12Nov2024 18:36:59.297] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LuckPerms-Sponge-5.4.141.jar" [locator: plugins directory, reader: sponge manifest]
+[12Nov2024 18:36:59.297] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator plugins directory found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Nov2024 18:36:59.298] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at /mnt/ebs/mcs/neodata/mods}
+[12Nov2024 18:36:59.298] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir /mnt/ebs/mcs/neodata/mods for mods
+[12Nov2024 18:36:59.300] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[12Nov2024 18:36:59.300] [main/DEBUG] [app launch/]: Plugin file '/mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.300] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[12Nov2024 18:36:59.300] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[12Nov2024 18:36:59.303] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file collective-1.21.1-7.84.jar with {collective} mods - versions {7.84}
+[12Nov2024 18:36:59.303] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-7.84.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
+[12Nov2024 18:36:59.303] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+[12Nov2024 18:36:59.304] [main/DEBUG] [app launch/]: Plugin file '/mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.304] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+[12Nov2024 18:36:59.304] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+[12Nov2024 18:36:59.309] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file justmobheads-1.21.1-8.3.jar with {justmobheads} mods - versions {8.3}
+[12Nov2024 18:36:59.311] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justmobheads-1.21.1-8.3.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
+[12Nov2024 18:36:59.311] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping /mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar because it was already located earlier
+[12Nov2024 18:36:59.311] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /mnt/ebs/mcs/neodata/mods} found 2 mods, 0 warnings, 0 errors and skipped 1 candidates
+[12Nov2024 18:36:59.311] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator maven libs
+[12Nov2024 18:36:59.313] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[12Nov2024 18:36:59.313] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator maven libs found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Nov2024 18:36:59.322] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 7 mods. Attempting to load dependencies...
+[12Nov2024 18:36:59.322] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator spongeneo
+[12Nov2024 18:36:59.325] [main/INFO] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: Scanning and verifying libraries in './sponge-libraries'. Please wait, this may take a moment...
+[12Nov2024 18:36:59.361] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar' verified!
+[12Nov2024 18:36:59.362] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar' verified!
+[12Nov2024 18:36:59.362] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/javax/inject/javax.inject/1/javax.inject-1.jar' verified!
+[12Nov2024 18:36:59.368] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar' verified!
+[12Nov2024 18:36:59.377] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-serializer-configurate4/4.17.0/adventure-serializer-configurate4-4.17.0.jar' verified!
+[12Nov2024 18:36:59.393] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar' verified!
+[12Nov2024 18:36:59.395] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar' verified!
+[12Nov2024 18:36:59.397] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/ca/stellardrift/guice-backport/guice/5.0.1/guice-5.0.1.jar' verified!
+[12Nov2024 18:36:59.399] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar' verified!
+[12Nov2024 18:36:59.399] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar' verified!
+[12Nov2024 18:36:59.400] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar' verified!
+[12Nov2024 18:36:59.400] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar' verified!
+[12Nov2024 18:36:59.402] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/option/1.0.0/option-1.0.0.jar' verified!
+[12Nov2024 18:36:59.400] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar' verified!
+[12Nov2024 18:36:59.403] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar' verified!
+[12Nov2024 18:36:59.403] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/spongepowered/configurate-gson/4.1.2/configurate-gson-4.1.2.jar' verified!
+[12Nov2024 18:36:59.404] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar' verified!
+[12Nov2024 18:36:59.402] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar' verified!
+[12Nov2024 18:36:59.406] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/spongepowered/math/2.0.1/math-2.0.1.jar' verified!
+[12Nov2024 18:36:59.407] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/spongepowered/configurate-extra-guice/4.1.2/configurate-extra-guice-4.1.2.jar' verified!
+[12Nov2024 18:36:59.411] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar' verified!
+[12Nov2024 18:36:59.413] [pool-2-thread-3/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar' verified!
+[12Nov2024 18:36:59.414] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar as a game library
+[12Nov2024 18:36:59.415] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "aopalliance-1.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.416] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/spongepowered/math/2.0.1/math-2.0.1.jar as a game library
+[12Nov2024 18:36:59.417] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "math-2.0.1.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.417] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/ca/stellardrift/guice-backport/guice/5.0.1/guice-5.0.1.jar as a game library
+[12Nov2024 18:36:59.418] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "guice-5.0.1.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.418] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar as a game library
+[12Nov2024 18:36:59.419] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "annotations-24.1.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.419] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/javax/inject/javax.inject/1/javax.inject-1.jar as a game library
+[12Nov2024 18:36:59.420] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "javax.inject-1.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.420] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar as a game library
+[12Nov2024 18:36:59.420] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-minimessage-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.421] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/spongepowered/configurate-extra-guice/4.1.2/configurate-extra-guice-4.1.2.jar as a game library
+[12Nov2024 18:36:59.428] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-extra-guice-4.1.2.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.429] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-serializer-configurate4/4.17.0/adventure-serializer-configurate4-4.17.0.jar as a game library
+[12Nov2024 18:36:59.429] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-serializer-configurate4-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.430] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar as a game library
+[12Nov2024 18:36:59.430] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-key-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.433] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar as a game library
+[12Nov2024 18:36:59.433] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-plain-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.433] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar as a game library
+[12Nov2024 18:36:59.434] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-string-1.3.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.434] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar as a game library
+[12Nov2024 18:36:59.434] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-gson-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.436] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar as a game library
+[12Nov2024 18:36:59.438] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-api-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.438] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/option/1.0.0/option-1.0.0.jar as a game library
+[12Nov2024 18:36:59.439] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "option-1.0.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.439] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar as a game library
+[12Nov2024 18:36:59.439] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-json-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.440] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar as a game library
+[12Nov2024 18:36:59.444] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-yaml-4.1.2.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.445] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar as a game library
+[12Nov2024 18:36:59.445] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-api-1.3.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.446] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar as a game library
+[12Nov2024 18:36:59.448] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "caffeine-3.1.8.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.448] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar as a game library
+[12Nov2024 18:36:59.449] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "auto-service-annotations-1.1.1.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.449] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/spongepowered/configurate-gson/4.1.2/configurate-gson-4.1.2.jar as a game library
+[12Nov2024 18:36:59.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-gson-4.1.2.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.456] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar as a game library
+[12Nov2024 18:36:59.456] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-legacy-4.17.0.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.456] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar as a game library
+[12Nov2024 18:36:59.457] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "snakeyaml-1.28.jar" [locator: spongeneo]
+[12Nov2024 18:36:59.457] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator jarinjar
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.21.1-20240808.144430-srg.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from LuckPerms-Sponge-5.4.141.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from justmobheads-1.21.1-8.3.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from spongeneo-lang.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from collective-1.21.1-7.84.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from spongeneo-mod.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from aopalliance-1.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from math-2.0.1.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from guice-5.0.1.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from annotations-24.1.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javax.inject-1.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.462] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-minimessage-4.17.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.463] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from configurate-extra-guice-4.1.2.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.464] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-serializer-configurate4-4.17.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.464] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-key-4.17.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.464] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-serializer-plain-4.17.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.464] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from examination-string-1.3.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.464] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-serializer-gson-4.17.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.464] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-api-4.17.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.464] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from option-1.0.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.464] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-serializer-json-4.17.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.465] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from configurate-yaml-4.1.2.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.465] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from examination-api-1.3.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.465] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from caffeine-3.1.8.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.465] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from auto-service-annotations-1.1.1.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.465] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from configurate-gson-4.1.2.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.465] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-serializer-legacy-4.17.0.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.465] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from snakeyaml-1.28.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.483] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[12Nov2024 18:36:59.483] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.483] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[12Nov2024 18:36:59.484] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[12Nov2024 18:36:59.484] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.484] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[12Nov2024 18:36:59.484] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mixinextras-neoforge-0.4.1.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.484] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from neoforge-coremods-21.1.72.jar, it does not contain dependency information.
+[12Nov2024 18:36:59.502] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[12Nov2024 18:36:59.503] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.503] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[12Nov2024 18:36:59.506] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[12Nov2024 18:36:59.506] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[12Nov2024 18:36:59.506] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[12Nov2024 18:36:59.507] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12Nov2024 18:36:59.507] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
+[12Nov2024 18:36:59.507] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.72.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
+[12Nov2024 18:36:59.510] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Collective 7.84 (collective)
+		Just Mob Heads 8.3 (justmobheads)
+		LuckPerms 5.4.141 (luckperms)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.72 (neoforge)
+		SpongeNeo 1.21.1-21.1.35-12.0.0-RC1851 (spongeneo)
+[12Nov2024 18:36:59.511] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
+[12Nov2024 18:36:59.512] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[12Nov2024 18:36:59.513] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+[12Nov2024 18:36:59.518] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file justmobheads-1.21.1-8.3.jar with {justmobheads} mods - versions {8.3}
+[12Nov2024 18:36:59.518] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[12Nov2024 18:36:59.518] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config justmobheads_neoforge.mixins.json
+[12Nov2024 18:36:59.518] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[12Nov2024 18:36:59.522] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file spongeneo-mod.jar with {spongeneo,sponge,spongeapi} mods - versions {1.21.1-21.1.35-12.0.0-RC1851,1.21.1-21.1.35-12.0.0-RC1851,12.0.0}
+[12Nov2024 18:36:59.522] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[12Nov2024 18:36:59.522] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[12Nov2024 18:36:59.525] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file collective-1.21.1-7.84.jar with {collective} mods - versions {7.84}
+[12Nov2024 18:36:59.525] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[12Nov2024 18:36:59.525] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config collective_neoforge.mixins.json
+[12Nov2024 18:36:59.525] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[12Nov2024 18:36:59.526] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.72-universal.jar with {neoforge} mods - versions {21.1.72}
+[12Nov2024 18:36:59.526] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[12Nov2024 18:36:59.526] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config neoforge.mixins.json
+[12Nov2024 18:36:59.528] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file LuckPerms-Sponge-5.4.141.jar with {luckperms} mods - versions {5.4.141}
+[12Nov2024 18:36:59.529] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/mods/plugins/LuckPerms-Sponge-5.4.141.jar with languages [LanguageSpec[languageName=java_plain, acceptedVersions=1.0]]
+[12Nov2024 18:36:59.529] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/spongepowered/configurate-gson/4.1.2/configurate-gson-4.1.2.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/ca/stellardrift/guice-backport/guice/5.0.1/guice-5.0.1.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/spongepowered/math/2.0.1/math-2.0.1.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-serializer-configurate4/4.17.0/adventure-serializer-configurate4-4.17.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/spongepowered/configurate-extra-guice/4.1.2/configurate-extra-guice-4.1.2.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/option/1.0.0/option-1.0.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar with languages []
+[12Nov2024 18:36:59.530] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar with languages []
+[12Nov2024 18:36:59.533] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar with languages []
+[12Nov2024 18:36:59.533] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar with languages []
+[12Nov2024 18:36:59.533] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar with languages []
+[12Nov2024 18:36:59.533] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar with languages []
+[12Nov2024 18:36:59.533] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/javax/inject/javax.inject/1/javax.inject-1.jar with languages []
+[12Nov2024 18:36:59.534] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 29 mod files with 8 mods
+[12Nov2024 18:36:59.535] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[12Nov2024 18:36:59.535] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service spongeneo
+[12Nov2024 18:36:59.535] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service spongeneo
+[12Nov2024 18:36:59.535] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service superclass_change
+[12Nov2024 18:36:59.535] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service superclass_change
+[12Nov2024 18:36:59.535] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service access_widener
+[12Nov2024 18:36:59.535] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service access_widener
+[12Nov2024 18:36:59.555] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModLanguageLoader:
+[12Nov2024 18:36:59.555] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	org.spongepowered.neoforge.lang.provider.JavaPluginLanguageProvider from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar > spongeneo-lang.jar
+[12Nov2024 18:36:59.555] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from loader-4.0.29.jar
+[12Nov2024 18:36:59.555] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.lowcodemod.LowCodeModLanguageProvider from loader-4.0.29.jar
+[12Nov2024 18:36:59.555] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from loader-4.0.29.jar
+[12Nov2024 18:36:59.556] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider java_plain, version 4.0.29
+[12Nov2024 18:36:59.556] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 4.0.29
+[12Nov2024 18:36:59.556] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider lowcodefml, version 4.0.29
+[12Nov2024 18:36:59.556] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 4.0.29
+[12Nov2024 18:36:59.562] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[12Nov2024 18:36:59.562] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[12Nov2024 18:36:59.562] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[12Nov2024 18:36:59.566] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 8 mod requirements (8 mandatory, 0 optional)
+[12Nov2024 18:36:59.567] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[12Nov2024 18:36:59.585] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[12Nov2024 18:36:59.590] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[12Nov2024 18:36:59.699] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[12Nov2024 18:36:59.699] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[12Nov2024 18:36:59.702] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[12Nov2024 18:36:59.780] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[12Nov2024 18:36:59.782] [main/DEBUG] [mixin/]: Adding mixin platform agents for container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf
+[12Nov2024 18:36:59.782] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf
+[12Nov2024 18:36:59.782] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf
+[12Nov2024 18:36:59.782] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf
+[12Nov2024 18:36:59.782] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf
+[12Nov2024 18:36:59.782] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf
+[12Nov2024 18:36:59.782] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf
+[12Nov2024 18:36:59.791] [main/DEBUG] [org.spongepowered.neoforge.applaunch.transformation.SpongeNeoTransformationService/]: Registering access wideners from spongeneo-mod.jar ...
+[12Nov2024 18:36:59.792] [main/DEBUG] [org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService/]: Reading access widener common.accesswidener from union:/mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar%23121_/jars/spongeneo-mod.jar%23126!/common.accesswidener
+[12Nov2024 18:36:59.798] [main/DEBUG] [org.spongepowered.neoforge.applaunch.transformation.SpongeNeoTransformationService/]: Registering superclass changers from spongeneo-mod.jar ...
+[12Nov2024 18:36:59.799] [main/DEBUG] [org.spongepowered.transformers.modlauncher.SuperclassChanger/]: Reading superclass change common.superclasschange from union:/mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar%23121_/jars/spongeneo-mod.jar%23126!/common.superclasschange
+[12Nov2024 18:36:59.850] [main/DEBUG] [org.spongepowered.transformers.modlauncher.SuperclassChanger/]: Reading superclass change neoforge.superclasschange from union:/mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar%23121_/jars/spongeneo-mod.jar%23126!/neoforge.superclasschange
+[12Nov2024 18:36:59.852] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[12Nov2024 18:36:59.853] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[12Nov2024 18:36:59.853] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[12Nov2024 18:36:59.853] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[12Nov2024 18:36:59.853] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/LOADING]: Loading coremod transformers
+[12Nov2024 18:36:59.856] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Not loading coremod script-engine since no mod requested it
+[12Nov2024 18:36:59.857] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ICoreMod:
+[12Nov2024 18:36:59.857] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from neoforge-21.1.72-universal.jar > neoforge-coremods-21.1.72.jar
+[12Nov2024 18:36:59.865] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.biome.Biome, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@2c0b4c83 in neoforge-21.1.72-universal.jar > neoforge-coremods-21.1.72.jar
+[12Nov2024 18:36:59.865] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.levelgen.structure.Structure, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@2c0b4c83 in neoforge-21.1.72-universal.jar > neoforge-coremods-21.1.72.jar
+[12Nov2024 18:36:59.865] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.block.FlowerPotBlock, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@2c0b4c83 in neoforge-21.1.72-universal.jar > neoforge-coremods-21.1.72.jar
+[12Nov2024 18:36:59.867] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net/minecraft/world/entity/npc/CatSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/level/levelgen/PhantomSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/server/commands/SummonCommand, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/monster/Spider, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/npc/Villager, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/monster/Zombie, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/animal/horse/SkeletonTrapGoal, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/EntityType, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/monster/Strider, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/ai/village/VillageSiege, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/server/commands/RaidCommand, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/level/levelgen/PatrolSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/animal/frog/Tadpole, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/raid/Raid, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/level/NaturalSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4], Target[className=net/minecraft/world/entity/monster/ZombieVillager, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@614df0a4]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@2c0b4c83 in neoforge-21.1.72-universal.jar > neoforge-coremods-21.1.72.jar
+[12Nov2024 18:36:59.869] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@715d6168 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[12Nov2024 18:36:59.869] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@c2e3264 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[12Nov2024 18:36:59.870] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@107f4980 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[12Nov2024 18:36:59.870] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[12Nov2024 18:36:59.870] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[12Nov2024 18:36:59.870] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@75a118e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[12Nov2024 18:36:59.871] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service spongeneo
+[12Nov2024 18:37:01.287] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.neoforge.applaunch.transformation.ListenerTransformer@77d680e6 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lme/lucko/luckperms/sponge/loader/SpongeLoaderPlugin;} {} {V}
+[12Nov2024 18:37:01.288] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service spongeneo
+[12Nov2024 18:37:01.288] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service superclass_change
+[12Nov2024 18:37:01.289] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.SuperclassChanger$SuperclassTransformer@37b57b54 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lorg/spongepowered/api/event/cause/entity/damage/source/common/AbstractEntityDamageSource;} {} {V}
+[12Nov2024 18:37:01.290] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.SuperclassChanger$SuperclassTransformer@37b57b54 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lorg/spongepowered/api/event/cause/entity/damage/source/common/AbstractDamageSource;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.SuperclassChanger$SuperclassTransformer@37b57b54 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lorg/spongepowered/api/entity/ai/goal/AbstractGoal;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.SuperclassChanger$SuperclassTransformer@37b57b54 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lorg/spongepowered/api/event/cause/entity/damage/source/common/AbstractIndirectEntityDamageSource;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service superclass_change
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service access_widener
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/Phantom;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/network/protocol/game/ServerboundInteractPacket;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/network/ServerLoginPacketListenerImpl;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/item/crafting/Ingredient;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/network/protocol/game/ServerboundInteractPacket$Action;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/commands/TeleportCommand;} {} {V}
+[12Nov2024 18:37:01.291] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/level/ServerLevel$EntityCallbacks;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/animal/TropicalFish;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/item/crafting/Ingredient$Value;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/biome/Biome$ClimateSettings;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/Phantom$AttackPhase;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/raid/Raid$RaidStatus;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/players/IpBanList;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/network/ServerLoginPacketListenerImpl$State;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/SpellcasterIllager;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/commands/TeleportCommand$LookAt;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/server/level/ServerLevel;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[12Nov2024 18:37:01.292] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/animal/TropicalFish$Pattern;} {} {V}
+[12Nov2024 18:37:01.293] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer org.spongepowered.transformers.modlauncher.AccessWidenerTransformationService$AWTransformer@7be71476 to Target : cpw.mods.modlauncher.api.TargetType@614df0a4 {Lnet/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell;} {} {V}
+[12Nov2024 18:37:01.293] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service access_widener
+[12Nov2024 18:37:01.422] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[12Nov2024 18:37:01.422] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf]
+[12Nov2024 18:37:01.422] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[FMLMixinPlatformAgent:null]
+[12Nov2024 18:37:01.463] [main/DEBUG] [mixin/]: Compatibility level JAVA_21 specified by justmobheads_neoforge.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[12Nov2024 18:37:01.469] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[12Nov2024 18:37:01.473] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[12Nov2024 18:37:01.475] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixin_synthetic)
+[12Nov2024 18:37:01.475] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin_synthetic)
+[12Nov2024 18:37:01.475] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin_synthetic)
+[12Nov2024 18:37:01.475] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin_synthetic)
+[12Nov2024 18:37:01.475] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin_synthetic)
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixin_synthetic)
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixin_synthetic)
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin_synthetic)]
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[12Nov2024 18:37:01.476] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(minecraft)
+[12Nov2024 18:37:01.477] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(minecraft)
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(justmobheads)
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(justmobheads)
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(justmobheads)
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(justmobheads)
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(justmobheads)
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(justmobheads)
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(justmobheads)
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justmobheads)]
+[12Nov2024 18:37:01.478] [main/DEBUG] [mixin/]: Registering mixin config: justmobheads_forge.mixins.json source=SecureJarResource(justmobheads)
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by justmobheads_forge.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(collective)
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(collective)
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(collective)
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(collective)
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(collective)
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(collective)
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(collective)
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(collective)]
+[12Nov2024 18:37:01.479] [main/DEBUG] [mixin/]: Registering mixin config: collective_forge.mixins.json source=SecureJarResource(collective)
+[12Nov2024 18:37:01.482] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by collective_forge.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(spongeneo)]
+[12Nov2024 18:37:01.483] [main/DEBUG] [mixin/]: Registering mixin config: mixins.spongeneo.accessors.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.485] [main/DEBUG] [mixin/]: Compatibility level JAVA_18 specified by mixins.sponge.parent.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[12Nov2024 18:37:01.486] [main/DEBUG] [mixin/]: Registering mixin config: mixins.spongeneo.api.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.487] [main/DEBUG] [mixin/]: Registering mixin config: mixins.spongeneo.inventory.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.487] [main/DEBUG] [mixin/]: Registering mixin config: mixins.spongeneo.tracker.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.488] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.inventory.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.489] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.api.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.496] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.accessors.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.497] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.optimization.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.497] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.tracker.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.500] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.concurrent.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.501] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.ipforward.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.504] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.core.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.508] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.exploit.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.508] [main/DEBUG] [mixin/]: Registering mixin config: mixins.spongeneo.core.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.511] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.entityactivation.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.512] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sponge.movementcheck.json source=SecureJarResource(spongeneo)
+[12Nov2024 18:37:01.512] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(neoforge)
+[12Nov2024 18:37:01.512] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(neoforge)
+[12Nov2024 18:37:01.512] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(neoforge)
+[12Nov2024 18:37:01.512] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(neoforge)
+[12Nov2024 18:37:01.512] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(neoforge)
+[12Nov2024 18:37:01.513] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(neoforge)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(neoforge)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(luckperms)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(luckperms)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(luckperms)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(luckperms)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(luckperms)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(luckperms)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(luckperms)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(luckperms)]
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.adventure)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.adventure)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.adventure)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.adventure)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.adventure)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.adventure)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.adventure)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure)]
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.yaml.snakeyaml)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.yaml.snakeyaml)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.yaml.snakeyaml)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.yaml.snakeyaml)
+[12Nov2024 18:37:01.515] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.yaml.snakeyaml)
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(org.yaml.snakeyaml)
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(org.yaml.snakeyaml)
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.yaml.snakeyaml)]
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.jetbrains.annotations)
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.jetbrains.annotations)
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.jetbrains.annotations)
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.jetbrains.annotations)
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.jetbrains.annotations)
+[12Nov2024 18:37:01.516] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(org.jetbrains.annotations)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(org.jetbrains.annotations)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.jetbrains.annotations)]
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.spongepowered.configurate.gson)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.spongepowered.configurate.gson)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.spongepowered.configurate.gson)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.spongepowered.configurate.gson)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.spongepowered.configurate.gson)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(org.spongepowered.configurate.gson)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(org.spongepowered.configurate.gson)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.spongepowered.configurate.gson)]
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(com.google.guice)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(com.google.guice)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(com.google.guice)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(com.google.guice)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(com.google.guice)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(com.google.guice)
+[12Nov2024 18:37:01.518] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(com.google.guice)
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(com.google.guice)]
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinextras.neoforge)
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinextras.neoforge)
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[12Nov2024 18:37:01.519] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=SecureJarResource(mixinextras.neoforge)
+[12Nov2024 18:37:01.520] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.spongepowered.math)
+[12Nov2024 18:37:01.521] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.spongepowered.math)
+[12Nov2024 18:37:01.521] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.spongepowered.math)
+[12Nov2024 18:37:01.521] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.spongepowered.math)
+[12Nov2024 18:37:01.521] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.spongepowered.math)
+[12Nov2024 18:37:01.521] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(org.spongepowered.math)
+[12Nov2024 18:37:01.521] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(org.spongepowered.math)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.spongepowered.math)]
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.spongepowered.configurate.yaml)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.spongepowered.configurate.yaml)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.spongepowered.configurate.yaml)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.spongepowered.configurate.yaml)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.spongepowered.configurate.yaml)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(org.spongepowered.configurate.yaml)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(org.spongepowered.configurate.yaml)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.spongepowered.configurate.yaml)]
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.adventure.serializer.configurate4)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.adventure.serializer.configurate4)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.adventure.serializer.configurate4)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.adventure.serializer.configurate4)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.adventure.serializer.configurate4)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.adventure.serializer.configurate4)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.adventure.serializer.configurate4)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.serializer.configurate4)]
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.adventure.text.serializer.gson)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.adventure.text.serializer.gson)
+[12Nov2024 18:37:01.523] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.adventure.text.serializer.gson)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.adventure.text.serializer.gson)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.adventure.text.serializer.gson)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.adventure.text.serializer.gson)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.adventure.text.serializer.gson)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.serializer.gson)]
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.spongepowered.configurate.extra.guice)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.spongepowered.configurate.extra.guice)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.spongepowered.configurate.extra.guice)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.spongepowered.configurate.extra.guice)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.spongepowered.configurate.extra.guice)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(org.spongepowered.configurate.extra.guice)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(org.spongepowered.configurate.extra.guice)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.spongepowered.configurate.extra.guice)]
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.adventure.text.minimessage)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.adventure.text.minimessage)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.adventure.text.minimessage)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.adventure.text.minimessage)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.adventure.text.minimessage)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.adventure.text.minimessage)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.adventure.text.minimessage)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.minimessage)]
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(aopalliance)
+[12Nov2024 18:37:01.524] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(aopalliance)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(aopalliance)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(aopalliance)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(aopalliance)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(aopalliance)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(aopalliance)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(aopalliance)]
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.adventure.key)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.adventure.key)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.adventure.key)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.adventure.key)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.adventure.key)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.adventure.key)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.adventure.key)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.key)]
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.option)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.option)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.option)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.option)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.option)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.option)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.option)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.option)]
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.examination.string)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.examination.string)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.examination.string)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.examination.string)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.examination.string)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.examination.string)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.examination.string)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.examination.string)]
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(com.github.benmanes.caffeine)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(com.github.benmanes.caffeine)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(com.github.benmanes.caffeine)
+[12Nov2024 18:37:01.525] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(com.github.benmanes.caffeine)
+[12Nov2024 18:37:01.526] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(com.github.benmanes.caffeine)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(com.github.benmanes.caffeine)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(com.github.benmanes.caffeine)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(com.github.benmanes.caffeine)]
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.examination.api)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.examination.api)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.examination.api)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.examination.api)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.examination.api)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.examination.api)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.examination.api)
+[12Nov2024 18:37:01.528] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.examination.api)]
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.adventure.text.serializer.plain)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.adventure.text.serializer.plain)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.adventure.text.serializer.plain)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.adventure.text.serializer.plain)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.adventure.text.serializer.plain)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.adventure.text.serializer.plain)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.adventure.text.serializer.plain)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.serializer.plain)]
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.adventure.text.serializer.legacy)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.adventure.text.serializer.legacy)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.adventure.text.serializer.legacy)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.adventure.text.serializer.legacy)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.adventure.text.serializer.legacy)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.adventure.text.serializer.legacy)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.adventure.text.serializer.legacy)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.serializer.legacy)]
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(com.google.auto.service)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(com.google.auto.service)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(com.google.auto.service)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(com.google.auto.service)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(com.google.auto.service)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(com.google.auto.service)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(com.google.auto.service)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(com.google.auto.service)]
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.kyori.adventure.text.serializer.json)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.kyori.adventure.text.serializer.json)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.kyori.adventure.text.serializer.json)
+[12Nov2024 18:37:01.529] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.kyori.adventure.text.serializer.json)
+[12Nov2024 18:37:01.530] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.kyori.adventure.text.serializer.json)
+[12Nov2024 18:37:01.531] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(net.kyori.adventure.text.serializer.json)
+[12Nov2024 18:37:01.531] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(net.kyori.adventure.text.serializer.json)
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.serializer.json)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(javax.inject)
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(javax.inject)
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(javax.inject)
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(javax.inject)
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(javax.inject)
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(javax.inject)
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(javax.inject)
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(javax.inject)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: inject() running with 32 agents
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@47447ccf]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[FMLMixinPlatformAgent:null]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin_synthetic)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justmobheads)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(collective)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(spongeneo)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(luckperms)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.yaml.snakeyaml)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.jetbrains.annotations)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.spongepowered.configurate.gson)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(com.google.guice)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.spongepowered.math)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.spongepowered.configurate.yaml)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.serializer.configurate4)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.serializer.gson)]
+[12Nov2024 18:37:01.532] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.spongepowered.configurate.extra.guice)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.minimessage)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(aopalliance)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.key)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.option)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.examination.string)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(com.github.benmanes.caffeine)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.examination.api)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.serializer.plain)]
+[12Nov2024 18:37:01.533] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.serializer.legacy)]
+[12Nov2024 18:37:01.534] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(com.google.auto.service)]
+[12Nov2024 18:37:01.536] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.kyori.adventure.text.serializer.json)]
+[12Nov2024 18:37:01.536] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(javax.inject)]
+[12Nov2024 18:37:01.536] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[12Nov2024 18:37:01.565] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[12Nov2024 18:37:01.566] [main/DEBUG] [mixin/]: Selecting config justmobheads_neoforge.mixins.json
+[12Nov2024 18:37:01.572] [main/DEBUG] [mixin/]: Selecting config collective_neoforge.mixins.json
+[12Nov2024 18:37:01.573] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[12Nov2024 18:37:01.573] [main/DEBUG] [mixin/]: Selecting config justmobheads_forge.mixins.json
+[12Nov2024 18:37:01.575] [main/DEBUG] [mixin/]: Selecting config collective_forge.mixins.json
+[12Nov2024 18:37:01.575] [main/DEBUG] [mixin/]: Selecting config mixins.spongeneo.accessors.json
+[12Nov2024 18:37:01.575] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.parent.json
+[12Nov2024 18:37:01.576] [main/DEBUG] [mixin/]: Selecting config mixins.spongeneo.api.json
+[12Nov2024 18:37:01.576] [main/DEBUG] [mixin/]: Selecting config mixins.spongeneo.inventory.json
+[12Nov2024 18:37:01.576] [main/DEBUG] [mixin/]: Selecting config mixins.spongeneo.tracker.json
+[12Nov2024 18:37:01.576] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.inventory.json
+[12Nov2024 18:37:01.576] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.api.json
+[12Nov2024 18:37:01.577] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.accessors.json
+[12Nov2024 18:37:01.577] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.optimization.json
+[12Nov2024 18:37:01.580] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.tracker.json
+[12Nov2024 18:37:01.580] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.concurrent.json
+[12Nov2024 18:37:01.581] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.ipforward.json
+[12Nov2024 18:37:01.582] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.core.json
+[12Nov2024 18:37:01.582] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.exploit.json
+[12Nov2024 18:37:01.582] [main/DEBUG] [mixin/]: Selecting config mixins.spongeneo.core.json
+[12Nov2024 18:37:01.583] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.entityactivation.json
+[12Nov2024 18:37:01.583] [main/DEBUG] [mixin/]: Selecting config mixins.sponge.movementcheck.json
+[12Nov2024 18:37:01.584] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[12Nov2024 18:37:01.605] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1) is taking over from null
+[12Nov2024 18:37:01.628] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[12Nov2024 18:37:01.630] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[12Nov2024 18:37:01.630] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[12Nov2024 18:37:01.631] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[12Nov2024 18:37:01.632] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[12Nov2024 18:37:01.633] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[12Nov2024 18:37:01.646] [main/DEBUG] [mixin/]: Preparing justmobheads_neoforge.mixins.json (0)
+[12Nov2024 18:37:01.650] [main/DEBUG] [mixin/]: Preparing collective_neoforge.mixins.json (7)
+[12Nov2024 18:37:01.674] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.BaseSpawner FIELD spawnDelay to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.687] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/BaseSpawner to metadata cache
+[12Nov2024 18:37:01.693] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/BlockEntity to metadata cache
+[12Nov2024 18:37:01.694] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/BoneMealItem to metadata cache
+[12Nov2024 18:37:01.697] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/storage/PrimaryLevelData to metadata cache
+[12Nov2024 18:37:01.697] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[12Nov2024 18:37:01.702] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.entity.BlockEntityType INNERCLASS BlockEntitySupplier to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.707] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/BlockEntityType to metadata cache
+[12Nov2024 18:37:01.709] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/MappedRegistry to metadata cache
+[12Nov2024 18:37:01.711] [main/DEBUG] [mixin/]: Preparing justmobheads_forge.mixins.json (0)
+[12Nov2024 18:37:01.711] [main/DEBUG] [mixin/]: Preparing collective_forge.mixins.json (6)
+[12Nov2024 18:37:01.712] [main/DEBUG] [mixin/]: Preparing mixins.spongeneo.accessors.json (1)
+[12Nov2024 18:37:01.715] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/registries/RegistrySnapshot to metadata cache
+[12Nov2024 18:37:01.715] [main/DEBUG] [mixin/]: Preparing mixins.sponge.parent.json (0)
+[12Nov2024 18:37:01.715] [main/DEBUG] [mixin/]: Preparing mixins.sponge.inventory.json (104)
+[12Nov2024 18:37:01.788] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/decoration/ArmorStand to metadata cache
+[12Nov2024 18:37:01.791] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Mob FIELD goalSelector to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.791] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Mob FIELD targetSelector to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.800] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/Mob to metadata cache
+[12Nov2024 18:37:01.804] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.player.Player METHOD closeContainer()V to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.826] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/player/Player to metadata cache
+[12Nov2024 18:37:01.827] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/CampfireBlockEntity to metadata cache
+[12Nov2024 18:37:01.832] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/AbstractContainerMenu to metadata cache
+[12Nov2024 18:37:01.835] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/inventory/custom/CarriedWrapperInventory to metadata cache
+[12Nov2024 18:37:01.838] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/inventory/custom/CustomInventory to metadata cache
+[12Nov2024 18:37:01.838] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/vehicle/AbstractMinecartContainer to metadata cache
+[12Nov2024 18:37:01.839] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/LecternBlockEntity to metadata cache
+[12Nov2024 18:37:01.839] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/BaseContainerBlockEntity to metadata cache
+[12Nov2024 18:37:01.841] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/inventory/custom/ViewableCustomInventory to metadata cache
+[12Nov2024 18:37:01.842] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/npc/AbstractVillager to metadata cache
+[12Nov2024 18:37:01.845] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/npc/ClientSideMerchant to metadata cache
+[12Nov2024 18:37:01.845] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/CompoundContainer to metadata cache
+[12Nov2024 18:37:01.845] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/PlayerEnderChestContainer to metadata cache
+[12Nov2024 18:37:01.848] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/entity/player/SpongeUserInventory to metadata cache
+[12Nov2024 18:37:01.858] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/level/ServerPlayer to metadata cache
+[12Nov2024 18:37:01.858] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/Container to metadata cache
+[12Nov2024 18:37:01.863] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/EquipmentSlot$Type to metadata cache
+[12Nov2024 18:37:01.864] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/EquipmentSlot to metadata cache
+[12Nov2024 18:37:01.866] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.animal.horse.AbstractHorse METHOD getFlag(I)Z to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.875] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/animal/horse/AbstractHorse to metadata cache
+[12Nov2024 18:37:01.878] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/monster/Pillager to metadata cache
+[12Nov2024 18:37:01.881] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/player/Inventory to metadata cache
+[12Nov2024 18:37:01.881] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.inventory.AnvilMenu FIELD repairItemCountCost to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.886] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/AnvilMenu to metadata cache
+[12Nov2024 18:37:01.887] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/ArmorSlot to metadata cache
+[12Nov2024 18:37:01.887] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/BrewingStandMenu$PotionSlot to metadata cache
+[12Nov2024 18:37:01.887] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/CartographyTableMenu$5 to metadata cache
+[12Nov2024 18:37:01.891] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/CrafterBlockEntity to metadata cache
+[12Nov2024 18:37:01.891] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/CraftingContainer to metadata cache
+[12Nov2024 18:37:01.892] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/CraftingMenu to metadata cache
+[12Nov2024 18:37:01.894] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/EnchantmentMenu to metadata cache
+[12Nov2024 18:37:01.894] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/FurnaceResultSlot to metadata cache
+[12Nov2024 18:37:01.895] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/ItemCombinerMenu$2 to metadata cache
+[12Nov2024 18:37:01.895] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/LecternMenu to metadata cache
+[12Nov2024 18:37:01.899] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/LoomMenu to metadata cache
+[12Nov2024 18:37:01.900] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.inventory.MenuType INNERCLASS MenuSupplier to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.900] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.inventory.MenuType METHOD <init>(Lnet/minecraft/world/inventory/MenuType$MenuSupplier;Lnet/minecraft/world/flag/FeatureFlagSet;)V to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.902] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/MenuType to metadata cache
+[12Nov2024 18:37:01.902] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/ResultSlot to metadata cache
+[12Nov2024 18:37:01.904] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/Slot to metadata cache
+[12Nov2024 18:37:01.904] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/StonecutterMenu$2 to metadata cache
+[12Nov2024 18:37:01.906] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/StonecutterMenu to metadata cache
+[12Nov2024 18:37:01.906] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/TransientCraftingContainer to metadata cache
+[12Nov2024 18:37:01.908] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/CraftingInput to metadata cache
+[12Nov2024 18:37:01.908] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/RecipeInput to metadata cache
+[12Nov2024 18:37:01.910] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/SingleRecipeInput to metadata cache
+[12Nov2024 18:37:01.911] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/SmithingRecipeInput to metadata cache
+[12Nov2024 18:37:01.911] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/ChestBlockEntity to metadata cache
+[12Nov2024 18:37:01.921] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.LivingEntity FIELD DATA_HEALTH_ID to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.921] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.LivingEntity METHOD getHitbox()Lnet/minecraft/world/phys/AABB; to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.921] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.LivingEntity METHOD getCurrentSwingDuration()I to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.951] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/LivingEntity to metadata cache
+[12Nov2024 18:37:01.966] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/network/ServerGamePacketListenerImpl to metadata cache
+[12Nov2024 18:37:01.967] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/Containers to metadata cache
+[12Nov2024 18:37:01.978] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/item/ItemEntity to metadata cache
+[12Nov2024 18:37:01.979] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/ItemCombinerMenu to metadata cache
+[12Nov2024 18:37:01.980] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/DropperBlock to metadata cache
+[12Nov2024 18:37:01.986] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.entity.HopperBlockEntity METHOD setCooldown(I)V to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.986] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.entity.HopperBlockEntity METHOD isOnCustomCooldown()Z to access PUBLIC and LEAVE
+[12Nov2024 18:37:01.998] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/HopperBlockEntity to metadata cache
+[12Nov2024 18:37:01.999] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/ChestMenu to metadata cache
+[12Nov2024 18:37:01.999] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/HopperMenu to metadata cache
+[12Nov2024 18:37:02.000] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/DispenserMenu to metadata cache
+[12Nov2024 18:37:02.002] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/AbstractFurnaceMenu to metadata cache
+[12Nov2024 18:37:02.004] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/BrewingStandMenu to metadata cache
+[12Nov2024 18:37:02.004] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/BeaconMenu to metadata cache
+[12Nov2024 18:37:02.005] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/HorseInventoryMenu to metadata cache
+[12Nov2024 18:37:02.008] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.inventory.MerchantMenu FIELD trader to access PUBLIC and LEAVE
+[12Nov2024 18:37:02.009] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/MerchantMenu to metadata cache
+[12Nov2024 18:37:02.013] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/InventoryMenu to metadata cache
+[12Nov2024 18:37:02.015] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/SimpleContainer to metadata cache
+[12Nov2024 18:37:02.015] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/ResultContainer to metadata cache
+[12Nov2024 18:37:02.018] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/MerchantContainer to metadata cache
+[12Nov2024 18:37:02.021] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/LecternBlockEntity$1 to metadata cache
+[12Nov2024 18:37:02.021] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/level/ServerPlayer$1 to metadata cache
+[12Nov2024 18:37:02.023] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/vehicle/ChestBoat to metadata cache
+[12Nov2024 18:37:02.026] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/CartographyTableMenu to metadata cache
+[12Nov2024 18:37:02.027] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/ShulkerBoxMenu to metadata cache
+[12Nov2024 18:37:02.027] [main/DEBUG] [mixin/]: Preparing mixins.sponge.api.json (537)
+[12Nov2024 18:37:02.560] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/common/entity/living/human/HumanEntity to metadata cache
+[12Nov2024 18:37:02.591] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD ENTITY_COUNTER to access PROTECTED and LEAVE
+[12Nov2024 18:37:02.596] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD dimensions to access PUBLIC and LEAVE
+[12Nov2024 18:37:02.596] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD eyeHeight to access PUBLIC and LEAVE
+[12Nov2024 18:37:02.597] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD getEncodeId()Ljava/lang/String; to access PUBLIC and LEAVE
+[12Nov2024 18:37:02.597] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD setSharedFlag(IZ)V to access PUBLIC and LEAVE
