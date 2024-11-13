@@ -1,138 +1,351 @@
-[13Nov2024 18:57:00.787] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.72, --fml.fmlVersion, 4.0.29, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[13Nov2024 18:57:00.790] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
-[13Nov2024 18:57:00.791] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-aws
-[13Nov2024 18:57:00.817] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
-[13Nov2024 18:57:00.841] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
-[13Nov2024 18:57:00.851] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[13Nov2024 18:57:00.856] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /mnt/ebs/mcs/neodata
-[13Nov2024 18:57:00.856] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /mnt/ebs/mcs/neodata/mods
-[13Nov2024 18:57:00.856] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /mnt/ebs/mcs/neodata/config
-[13Nov2024 18:57:00.856] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /mnt/ebs/mcs/neodata/config/fml.toml
-[13Nov2024 18:57:00.909] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /mnt/ebs/mcs/neodata/config/fml.toml
-[13Nov2024 18:57:00.909] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
-[13Nov2024 18:57:00.909] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
-[13Nov2024 18:57:00.909] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
-[13Nov2024 18:57:00.909] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
-[13Nov2024 18:57:00.909] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
-[13Nov2024 18:57:00.909] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
-[13Nov2024 18:57:00.910] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
-[13Nov2024 18:57:00.910] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
-[13Nov2024 18:57:00.910] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
-[13Nov2024 18:57:00.910] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
-[13Nov2024 18:57:00.911] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
-[13Nov2024 18:57:00.911] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
-[13Nov2024 18:57:00.911] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
-[13Nov2024 18:57:00.924] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [/mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar]
-[13Nov2024 18:57:00.943] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Nov2024 18:57:00.961] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml,spongeneo,superclass_change,access_widener]
-[13Nov2024 18:57:00.962] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[13Nov2024 18:57:00.962] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[13Nov2024 18:57:00.962] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[13Nov2024 18:57:00.962] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[13Nov2024 18:57:00.963] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 4.0.29 loading
-[13Nov2024 18:57:00.963] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 11.0.4+main.d2e20e43
-[13Nov2024 18:57:00.963] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
-[13Nov2024 18:57:00.964] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
-[13Nov2024 18:57:00.964] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[13Nov2024 18:57:00.964] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[13Nov2024 18:57:00.964] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service spongeneo
-[13Nov2024 18:57:00.964] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service spongeneo
-[13Nov2024 18:57:00.964] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service superclass_change
-[13Nov2024 18:57:00.965] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service superclass_change
-[13Nov2024 18:57:00.965] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service access_widener
-[13Nov2024 18:57:00.965] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service access_widener
-[13Nov2024 18:57:00.966] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[13Nov2024 18:57:00.986] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=21.1.72, fmlVersion=4.0.29, mcVersion=1.21.1, neoFormVersion=20240808.144430]
-[13Nov2024 18:57:00.987] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[13Nov2024 18:57:00.989] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[13Nov2024 18:57:01.001] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@6950e31
-[13Nov2024 18:57:01.013] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
-[13Nov2024 18:57:01.017] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[13Nov2024 18:57:01.017] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[13Nov2024 18:57:01.018] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[13Nov2024 18:57:01.018] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[13Nov2024 18:57:01.018] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[13Nov2024 18:57:01.018] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[13Nov2024 18:57:01.022] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[13Nov2024 18:57:01.022] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[13Nov2024 18:57:01.022] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[13Nov2024 18:57:01.023] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /mnt/ebs/mcs/neodata
-[13Nov2024 18:57:01.023] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /mnt/ebs/mcs/neodata/mods
-[13Nov2024 18:57:01.023] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /mnt/ebs/mcs/neodata/config
-[13Nov2024 18:57:01.023] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /mnt/ebs/mcs/neodata/config/fml.toml
-[13Nov2024 18:57:01.023] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /mnt/ebs/mcs/neodata/config/fml.toml
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
-[13Nov2024 18:57:01.025] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
-[13Nov2024 18:57:01.026] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
-[13Nov2024 18:57:01.026] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
-[13Nov2024 18:57:01.027] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
-[13Nov2024 18:57:01.027] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
-[13Nov2024 18:57:01.030] [main/DEBUG] [net.neoforged.fml.loading.LaunchContext/SCAN]: Located paths when launch context was created: [/mnt/ebs/mcs/neodata/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar, /mnt/ebs/mcs/neodata/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar, /mnt/ebs/mcs/neodata/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar, /mnt/ebs/mcs/neodata/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-extra.jar, /mnt/ebs/mcs/neodata/libraries/com/electronwill/night-config/toml/3.8.0/toml-3.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar, /mnt/ebs/mcs/neodata/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar, /mnt/ebs/mcs/neodata/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /mnt/ebs/mcs/neodata/libraries/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar, /mnt/ebs/mcs/neodata/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar, /mnt/ebs/mcs/neodata/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/fancymodloader/loader/4.0.29/loader-4.0.29.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar, /mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar, /mnt/ebs/mcs/neodata/libraries/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar, /mnt/ebs/mcs/neodata/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/mergetool/2.0.3/mergetool-2.0.3-api.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/bus/8.0.2/bus-8.0.2.jar, /mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar, /mnt/ebs/mcs/neodata/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.29/earlydisplay-4.0.29.jar, /mnt/ebs/mcs/neodata/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar, /mnt/ebs/mcs/neodata/libraries/com/electronwill/night-config/core/3.8.0/core-3.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar, /mnt/ebs/mcs/neodata/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar, /mnt/ebs/mcs/neodata/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar, /mnt/ebs/mcs/neodata/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /mnt/ebs/mcs/neodata/libraries/cpw/mods/modlauncher/11.0.4/modlauncher-11.0.4.jar, /mnt/ebs/mcs/neodata/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar, /mnt/ebs/mcs/neodata/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar]
-[13Nov2024 18:57:01.030] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[13Nov2024 18:57:01.030] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
-[13Nov2024 18:57:01.031] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist DEDICATED_SERVER
-[13Nov2024 18:57:01.033] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[13Nov2024 18:57:01.034] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service spongeneo
-[13Nov2024 18:57:01.034] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service spongeneo
-[13Nov2024 18:57:01.034] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service superclass_change
-[13Nov2024 18:57:01.034] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service superclass_change
-[13Nov2024 18:57:01.035] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service access_widener
-[13Nov2024 18:57:01.035] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service access_widener
-[13Nov2024 18:57:01.035] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[13Nov2024 18:57:01.036] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[13Nov2024 18:57:01.036] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[13Nov2024 18:57:01.036] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[13Nov2024 18:57:01.036] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[13Nov2024 18:57:01.239] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 7 implementations of IModFileCandidateLocator:
-[13Nov2024 18:57:01.240] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ProductionServerProvider from loader-4.0.29.jar
-[13Nov2024 18:57:01.244] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.PathBasedLocator from loader-4.0.29.jar
-[13Nov2024 18:57:01.244] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoModLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
-[13Nov2024 18:57:01.244] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.locator.EnvironmentPluginLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
-[13Nov2024 18:57:01.244] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.locator.PluginsDirectoryLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
-[13Nov2024 18:57:01.245] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from loader-4.0.29.jar
-[13Nov2024 18:57:01.247] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.MavenDirectoryLocator from loader-4.0.29.jar
-[13Nov2024 18:57:01.249] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 3 implementations of IModFileReader:
-[13Nov2024 18:57:01.250] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.reader.PluginFileReader from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
-[13Nov2024 18:57:01.250] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from loader-4.0.29.jar
-[13Nov2024 18:57:01.250] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from loader-4.0.29.jar
-[13Nov2024 18:57:01.253] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IDependencyLocator:
-[13Nov2024 18:57:01.253] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
-[13Nov2024 18:57:01.253] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from loader-4.0.29.jar
-[13Nov2024 18:57:01.253] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 7 ways to find mods
-[13Nov2024 18:57:01.253] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator production server provider +net.neoforged:neoforge:21.1.72:server
-[13Nov2024 18:57:01.392] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
-[13Nov2024 18:57:01.393] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.72:server]
-[13Nov2024 18:57:01.394] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator production server provider +net.neoforged:neoforge:21.1.72:server found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
-[13Nov2024 18:57:01.396] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]]
-[13Nov2024 18:57:01.404] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
-[13Nov2024 18:57:01.404] [main/DEBUG] [app launch/]: Plugin file '/mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar' is missing a 'sponge_plugins.json' metadata file in META-INF
-[13Nov2024 18:57:01.404] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
-[13Nov2024 18:57:01.404] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
-[13Nov2024 18:57:01.417] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.72-universal.jar with {neoforge} mods - versions {21.1.72}
-[13Nov2024 18:57:01.417] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.72-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]], reader: mod manifest]
-[13Nov2024 18:57:01.418] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]] found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
-[13Nov2024 18:57:01.418] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator spongeneo
-[13Nov2024 18:57:01.432] [main/DEBUG] [app launch/]: Considering plugin file candidate 
-[13Nov2024 18:57:01.434] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
-[13Nov2024 18:57:01.434] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
-[13Nov2024 18:57:01.436] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "spongeneo-lang.jar" [locator: spongeneo, reader: mod manifest]
-[13Nov2024 18:57:01.677] [main/DEBUG] [app launch/]: Considering plugin file candidate 
-[13Nov2024 18:57:01.677] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
-[13Nov2024 18:57:01.677] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: 
-[13Nov2024 18:57:01.677] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
-[13Nov2024 18:57:01.706] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file spongeneo-mod.jar with {spongeneo,sponge,spongeapi} mods - versions {1.21.1-21.1.35-12.0.0-RC1851,1.21.1-21.1.35-12.0.0-RC1851,12.0.0}
-[13Nov2024 18:57:01.706] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spongeneo-mod.jar" [locator: spongeneo, reader: mod manifest]
-[13Nov2024 18:57:01.707] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator spongeneo found 2 mods, 0 warnings, 0 errors and skipped 0 candidates
-[13Nov2024 18:57:01.707] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator environment plugin
-[13Nov2024 18:57:01.707] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator environment plugin found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
-[13Nov2024 18:57:01.707] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator plugins directory
-[13Nov2024 18:57:01.708] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir /mnt/ebs/mcs/neodata/mods/plugins for mods
-[13Nov2024 18:57:01.714] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/mods/plugins/LuckPerms-Sponge-5.4.141.jar
+[13Nov2024 18:58:00.707] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.72, --fml.fmlVersion, 4.0.29, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[13Nov2024 18:58:00.709] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
+[13Nov2024 18:58:00.710] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-aws
+[13Nov2024 18:58:00.739] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
+[13Nov2024 18:58:00.763] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[13Nov2024 18:58:00.774] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[13Nov2024 18:58:00.778] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /mnt/ebs/mcs/neodata
+[13Nov2024 18:58:00.778] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /mnt/ebs/mcs/neodata/mods
+[13Nov2024 18:58:00.778] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /mnt/ebs/mcs/neodata/config
+[13Nov2024 18:58:00.778] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /mnt/ebs/mcs/neodata/config/fml.toml
+[13Nov2024 18:58:00.835] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /mnt/ebs/mcs/neodata/config/fml.toml
+[13Nov2024 18:58:00.835] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[13Nov2024 18:58:00.835] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[13Nov2024 18:58:00.835] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
+[13Nov2024 18:58:00.835] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[13Nov2024 18:58:00.835] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[13Nov2024 18:58:00.836] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[13Nov2024 18:58:00.836] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[13Nov2024 18:58:00.836] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[13Nov2024 18:58:00.836] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[13Nov2024 18:58:00.837] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[13Nov2024 18:58:00.837] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[13Nov2024 18:58:00.838] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[13Nov2024 18:58:00.838] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[13Nov2024 18:58:00.855] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [/mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar]
+[13Nov2024 18:58:00.873] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Nov2024 18:58:00.895] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml,spongeneo,superclass_change,access_widener]
+[13Nov2024 18:58:00.895] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[13Nov2024 18:58:00.896] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[13Nov2024 18:58:00.897] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[13Nov2024 18:58:00.897] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[13Nov2024 18:58:00.898] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 4.0.29 loading
+[13Nov2024 18:58:00.898] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 11.0.4+main.d2e20e43
+[13Nov2024 18:58:00.898] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[13Nov2024 18:58:00.899] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[13Nov2024 18:58:00.899] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[13Nov2024 18:58:00.899] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[13Nov2024 18:58:00.899] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service spongeneo
+[13Nov2024 18:58:00.899] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service spongeneo
+[13Nov2024 18:58:00.899] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service superclass_change
+[13Nov2024 18:58:00.901] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service superclass_change
+[13Nov2024 18:58:00.901] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service access_widener
+[13Nov2024 18:58:00.902] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service access_widener
+[13Nov2024 18:58:00.903] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[13Nov2024 18:58:00.934] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=21.1.72, fmlVersion=4.0.29, mcVersion=1.21.1, neoFormVersion=20240808.144430]
+[13Nov2024 18:58:00.936] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[13Nov2024 18:58:00.936] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[13Nov2024 18:58:00.951] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@6950e31
+[13Nov2024 18:58:00.966] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
+[13Nov2024 18:58:00.970] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[13Nov2024 18:58:00.970] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[13Nov2024 18:58:00.970] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[13Nov2024 18:58:00.972] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[13Nov2024 18:58:00.973] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[13Nov2024 18:58:00.973] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[13Nov2024 18:58:00.975] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[13Nov2024 18:58:00.975] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[13Nov2024 18:58:00.976] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[13Nov2024 18:58:00.976] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /mnt/ebs/mcs/neodata
+[13Nov2024 18:58:00.976] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /mnt/ebs/mcs/neodata/mods
+[13Nov2024 18:58:00.977] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /mnt/ebs/mcs/neodata/config
+[13Nov2024 18:58:00.977] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /mnt/ebs/mcs/neodata/config/fml.toml
+[13Nov2024 18:58:00.977] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[13Nov2024 18:58:00.978] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /mnt/ebs/mcs/neodata/config/fml.toml
+[13Nov2024 18:58:00.980] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[13Nov2024 18:58:00.980] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[13Nov2024 18:58:00.980] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
+[13Nov2024 18:58:00.980] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[13Nov2024 18:58:00.980] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[13Nov2024 18:58:00.982] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[13Nov2024 18:58:00.982] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[13Nov2024 18:58:00.982] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[13Nov2024 18:58:00.982] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[13Nov2024 18:58:00.982] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[13Nov2024 18:58:00.982] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[13Nov2024 18:58:00.982] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[13Nov2024 18:58:00.983] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[13Nov2024 18:58:00.985] [main/DEBUG] [net.neoforged.fml.loading.LaunchContext/SCAN]: Located paths when launch context was created: [/mnt/ebs/mcs/neodata/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar, /mnt/ebs/mcs/neodata/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar, /mnt/ebs/mcs/neodata/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-extra.jar, /mnt/ebs/mcs/neodata/libraries/com/electronwill/night-config/toml/3.8.0/toml-3.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar, /mnt/ebs/mcs/neodata/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /mnt/ebs/mcs/neodata/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar, /mnt/ebs/mcs/neodata/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar, /mnt/ebs/mcs/neodata/libraries/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar, /mnt/ebs/mcs/neodata/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/fancymodloader/loader/4.0.29/loader-4.0.29.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar, /mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar, /mnt/ebs/mcs/neodata/libraries/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar, /mnt/ebs/mcs/neodata/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/mergetool/2.0.3/mergetool-2.0.3-api.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/bus/8.0.2/bus-8.0.2.jar, /mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar, /mnt/ebs/mcs/neodata/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.29/earlydisplay-4.0.29.jar, /mnt/ebs/mcs/neodata/libraries/com/electronwill/night-config/core/3.8.0/core-3.8.0.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar, /mnt/ebs/mcs/neodata/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar, /mnt/ebs/mcs/neodata/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar, /mnt/ebs/mcs/neodata/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar, /mnt/ebs/mcs/neodata/libraries/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar, /mnt/ebs/mcs/neodata/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar, /mnt/ebs/mcs/neodata/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar, /mnt/ebs/mcs/neodata/libraries/cpw/mods/modlauncher/11.0.4/modlauncher-11.0.4.jar, /mnt/ebs/mcs/neodata/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar, /mnt/ebs/mcs/neodata/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar, /mnt/ebs/mcs/neodata/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar, /mnt/ebs/mcs/neodata/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar, /mnt/ebs/mcs/neodata/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar, /mnt/ebs/mcs/neodata/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar]
+[13Nov2024 18:58:00.985] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[13Nov2024 18:58:00.986] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[13Nov2024 18:58:00.986] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist DEDICATED_SERVER
+[13Nov2024 18:58:00.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[13Nov2024 18:58:00.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service spongeneo
+[13Nov2024 18:58:00.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service spongeneo
+[13Nov2024 18:58:00.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service superclass_change
+[13Nov2024 18:58:00.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service superclass_change
+[13Nov2024 18:58:00.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service access_widener
+[13Nov2024 18:58:00.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service access_widener
+[13Nov2024 18:58:00.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[13Nov2024 18:58:00.990] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[13Nov2024 18:58:00.990] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[13Nov2024 18:58:00.990] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[13Nov2024 18:58:00.990] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[13Nov2024 18:58:01.234] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 7 implementations of IModFileCandidateLocator:
+[13Nov2024 18:58:01.235] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ProductionServerProvider from loader-4.0.29.jar
+[13Nov2024 18:58:01.239] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.PathBasedLocator from loader-4.0.29.jar
+[13Nov2024 18:58:01.240] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoModLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[13Nov2024 18:58:01.240] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.locator.EnvironmentPluginLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[13Nov2024 18:58:01.240] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.locator.PluginsDirectoryLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[13Nov2024 18:58:01.240] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from loader-4.0.29.jar
+[13Nov2024 18:58:01.240] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.MavenDirectoryLocator from loader-4.0.29.jar
+[13Nov2024 18:58:01.243] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 3 implementations of IModFileReader:
+[13Nov2024 18:58:01.244] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.reader.PluginFileReader from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[13Nov2024 18:58:01.245] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from loader-4.0.29.jar
+[13Nov2024 18:58:01.245] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from loader-4.0.29.jar
+[13Nov2024 18:58:01.248] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IDependencyLocator:
+[13Nov2024 18:58:01.248] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar
+[13Nov2024 18:58:01.248] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from loader-4.0.29.jar
+[13Nov2024 18:58:01.248] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 7 ways to find mods
+[13Nov2024 18:58:01.248] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator production server provider +net.neoforged:neoforge:21.1.72:server
+[13Nov2024 18:58:01.390] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
+[13Nov2024 18:58:01.390] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.72:server]
+[13Nov2024 18:58:01.391] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator production server provider +net.neoforged:neoforge:21.1.72:server found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[13Nov2024 18:58:01.392] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]]
+[13Nov2024 18:58:01.395] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[13Nov2024 18:58:01.395] [main/DEBUG] [app launch/]: Plugin file '/mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:01.395] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[13Nov2024 18:58:01.396] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[13Nov2024 18:58:01.412] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.72-universal.jar with {neoforge} mods - versions {21.1.72}
+[13Nov2024 18:58:01.412] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.72-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]], reader: mod manifest]
+[13Nov2024 18:58:01.414] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]] found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[13Nov2024 18:58:01.414] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator spongeneo
+[13Nov2024 18:58:01.424] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[13Nov2024 18:58:01.425] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:01.425] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[13Nov2024 18:58:01.427] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "spongeneo-lang.jar" [locator: spongeneo, reader: mod manifest]
+[13Nov2024 18:58:01.564] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[13Nov2024 18:58:01.564] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:01.564] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: 
+[13Nov2024 18:58:01.564] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[13Nov2024 18:58:01.571] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file spongeneo-mod.jar with {spongeneo,sponge,spongeapi} mods - versions {1.21.1-21.1.35-12.0.0-RC1851,1.21.1-21.1.35-12.0.0-RC1851,12.0.0}
+[13Nov2024 18:58:01.571] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spongeneo-mod.jar" [locator: spongeneo, reader: mod manifest]
+[13Nov2024 18:58:01.572] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator spongeneo found 2 mods, 0 warnings, 0 errors and skipped 0 candidates
+[13Nov2024 18:58:01.572] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator environment plugin
+[13Nov2024 18:58:01.572] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator environment plugin found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[13Nov2024 18:58:01.572] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator plugins directory
+[13Nov2024 18:58:01.572] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir /mnt/ebs/mcs/neodata/mods/plugins for mods
+[13Nov2024 18:58:01.576] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/mods/plugins/LuckPerms-Sponge-5.4.141.jar
+[13Nov2024 18:58:01.759] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file LuckPerms-Sponge-5.4.141.jar with {luckperms} mods - versions {5.4.141}
+[13Nov2024 18:58:01.759] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LuckPerms-Sponge-5.4.141.jar" [locator: plugins directory, reader: sponge manifest]
+[13Nov2024 18:58:01.760] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator plugins directory found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[13Nov2024 18:58:01.763] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at /mnt/ebs/mcs/neodata/mods}
+[13Nov2024 18:58:01.763] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir /mnt/ebs/mcs/neodata/mods for mods
+[13Nov2024 18:58:01.768] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[13Nov2024 18:58:01.768] [main/DEBUG] [app launch/]: Plugin file '/mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:01.768] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[13Nov2024 18:58:01.771] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[13Nov2024 18:58:01.776] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file collective-1.21.1-7.84.jar with {collective} mods - versions {7.84}
+[13Nov2024 18:58:01.776] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-7.84.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
+[13Nov2024 18:58:01.780] [main/DEBUG] [app launch/]: Considering plugin file candidate /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+[13Nov2024 18:58:01.780] [main/DEBUG] [app launch/]: Plugin file '/mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:01.780] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+[13Nov2024 18:58:01.780] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+[13Nov2024 18:58:01.786] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file justmobheads-1.21.1-8.3.jar with {justmobheads} mods - versions {8.3}
+[13Nov2024 18:58:01.786] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justmobheads-1.21.1-8.3.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
+[13Nov2024 18:58:01.786] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping /mnt/ebs/mcs/neodata/mods/spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar because it was already located earlier
+[13Nov2024 18:58:01.786] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /mnt/ebs/mcs/neodata/mods} found 2 mods, 0 warnings, 0 errors and skipped 1 candidates
+[13Nov2024 18:58:01.786] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator maven libs
+[13Nov2024 18:58:01.796] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[13Nov2024 18:58:01.796] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator maven libs found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[13Nov2024 18:58:01.804] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 7 mods. Attempting to load dependencies...
+[13Nov2024 18:58:01.804] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator spongeneo
+[13Nov2024 18:58:01.806] [main/INFO] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: Scanning and verifying libraries in './sponge-libraries'. Please wait, this may take a moment...
+[13Nov2024 18:58:01.829] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar' verified!
+[13Nov2024 18:58:01.830] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/javax/inject/javax.inject/1/javax.inject-1.jar' verified!
+[13Nov2024 18:58:01.831] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar' verified!
+[13Nov2024 18:58:01.832] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar' verified!
+[13Nov2024 18:58:01.847] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/ca/stellardrift/guice-backport/guice/5.0.1/guice-5.0.1.jar' verified!
+[13Nov2024 18:58:01.847] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-serializer-configurate4/4.17.0/adventure-serializer-configurate4-4.17.0.jar' verified!
+[13Nov2024 18:58:01.847] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar' verified!
+[13Nov2024 18:58:01.848] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar' verified!
+[13Nov2024 18:58:01.848] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar' verified!
+[13Nov2024 18:58:01.849] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar' verified!
+[13Nov2024 18:58:01.849] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar' verified!
+[13Nov2024 18:58:01.850] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar' verified!
+[13Nov2024 18:58:01.851] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/option/1.0.0/option-1.0.0.jar' verified!
+[13Nov2024 18:58:01.851] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar' verified!
+[13Nov2024 18:58:01.851] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/spongepowered/configurate-extra-guice/4.1.2/configurate-extra-guice-4.1.2.jar' verified!
+[13Nov2024 18:58:01.852] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/spongepowered/configurate-gson/4.1.2/configurate-gson-4.1.2.jar' verified!
+[13Nov2024 18:58:01.852] [pool-2-thread-3/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar' verified!
+[13Nov2024 18:58:01.852] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar' verified!
+[13Nov2024 18:58:01.852] [pool-2-thread-1/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar' verified!
+[13Nov2024 18:58:01.854] [pool-2-thread-2/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar' verified!
+[13Nov2024 18:58:01.854] [pool-2-thread-3/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/spongepowered/math/2.0.1/math-2.0.1.jar' verified!
+[13Nov2024 18:58:01.856] [pool-2-thread-4/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: './sponge-libraries/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar' verified!
+[13Nov2024 18:58:01.860] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/spongepowered/configurate-extra-guice/4.1.2/configurate-extra-guice-4.1.2.jar as a game library
+[13Nov2024 18:58:01.867] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-extra-guice-4.1.2.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.868] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar as a game library
+[13Nov2024 18:58:01.868] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "caffeine-3.1.8.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.869] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar as a game library
+[13Nov2024 18:58:01.869] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "aopalliance-1.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.869] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar as a game library
+[13Nov2024 18:58:01.870] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-minimessage-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.870] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar as a game library
+[13Nov2024 18:58:01.871] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-legacy-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.872] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar as a game library
+[13Nov2024 18:58:01.873] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-api-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.873] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-serializer-configurate4/4.17.0/adventure-serializer-configurate4-4.17.0.jar as a game library
+[13Nov2024 18:58:01.874] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-serializer-configurate4-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.874] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/javax/inject/javax.inject/1/javax.inject-1.jar as a game library
+[13Nov2024 18:58:01.874] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "javax.inject-1.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.874] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar as a game library
+[13Nov2024 18:58:01.875] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "snakeyaml-1.28.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.875] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar as a game library
+[13Nov2024 18:58:01.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-yaml-4.1.2.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.881] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/spongepowered/math/2.0.1/math-2.0.1.jar as a game library
+[13Nov2024 18:58:01.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "math-2.0.1.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.885] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar as a game library
+[13Nov2024 18:58:01.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-json-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.886] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar as a game library
+[13Nov2024 18:58:01.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-string-1.3.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.887] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/option/1.0.0/option-1.0.0.jar as a game library
+[13Nov2024 18:58:01.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "option-1.0.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.887] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar as a game library
+[13Nov2024 18:58:01.889] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "auto-service-annotations-1.1.1.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.889] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar as a game library
+[13Nov2024 18:58:01.890] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-plain-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.890] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar as a game library
+[13Nov2024 18:58:01.891] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-gson-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.891] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/spongepowered/configurate-gson/4.1.2/configurate-gson-4.1.2.jar as a game library
+[13Nov2024 18:58:01.894] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-gson-4.1.2.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.896] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar as a game library
+[13Nov2024 18:58:01.896] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-key-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.897] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar as a game library
+[13Nov2024 18:58:01.898] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "annotations-24.1.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.899] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/ca/stellardrift/guice-backport/guice/5.0.1/guice-5.0.1.jar as a game library
+[13Nov2024 18:58:01.899] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "guice-5.0.1.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.901] [main/DEBUG] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.SpongeNeoDependencyLocator/]: Proposing jar ./sponge-libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar as a game library
+[13Nov2024 18:58:01.901] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-api-1.3.0.jar" [locator: spongeneo]
+[13Nov2024 18:58:01.902] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator jarinjar
+[13Nov2024 18:58:01.913] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.21.1-20240808.144430-srg.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.913] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from LuckPerms-Sponge-5.4.141.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from justmobheads-1.21.1-8.3.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from spongeneo-lang.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from collective-1.21.1-7.84.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from spongeneo-mod.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from configurate-extra-guice-4.1.2.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from caffeine-3.1.8.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from aopalliance-1.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-minimessage-4.17.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-serializer-legacy-4.17.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-api-4.17.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-serializer-configurate4-4.17.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javax.inject-1.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from snakeyaml-1.28.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.914] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from configurate-yaml-4.1.2.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.915] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from math-2.0.1.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-serializer-json-4.17.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from examination-string-1.3.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from option-1.0.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from auto-service-annotations-1.1.1.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-serializer-plain-4.17.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-text-serializer-gson-4.17.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from configurate-gson-4.1.2.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from adventure-key-4.17.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from annotations-24.1.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from guice-5.0.1.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.920] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from examination-api-1.3.0.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.962] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[13Nov2024 18:58:01.962] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:01.962] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[13Nov2024 18:58:01.973] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[13Nov2024 18:58:01.973] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:01.973] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[13Nov2024 18:58:01.978] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mixinextras-neoforge-0.4.1.jar, it does not contain dependency information.
+[13Nov2024 18:58:01.978] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from neoforge-coremods-21.1.72.jar, it does not contain dependency information.
+[13Nov2024 18:58:02.034] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[13Nov2024 18:58:02.037] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:02.037] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[13Nov2024 18:58:02.046] [main/DEBUG] [app launch/]: Considering plugin file candidate 
+[13Nov2024 18:58:02.047] [main/DEBUG] [app launch/]: Plugin file '' is missing a 'sponge_plugins.json' metadata file in META-INF
+[13Nov2024 18:58:02.049] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[13Nov2024 18:58:02.051] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13Nov2024 18:58:02.054] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2024 18:58:02.054] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.72.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2024 18:58:02.055] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Collective 7.84 (collective)
+		Just Mob Heads 8.3 (justmobheads)
+		LuckPerms 5.4.141 (luckperms)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.72 (neoforge)
+		SpongeNeo 1.21.1-21.1.35-12.0.0-RC1851 (spongeneo)
+[13Nov2024 18:58:02.059] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
+[13Nov2024 18:58:02.059] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[13Nov2024 18:58:02.062] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar
+[13Nov2024 18:58:02.072] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file justmobheads-1.21.1-8.3.jar with {justmobheads} mods - versions {8.3}
+[13Nov2024 18:58:02.072] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/mods/justmobheads-1.21.1-8.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[13Nov2024 18:58:02.075] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config justmobheads_neoforge.mixins.json
+[13Nov2024 18:58:02.075] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[13Nov2024 18:58:02.085] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file spongeneo-mod.jar with {spongeneo,sponge,spongeapi} mods - versions {1.21.1-21.1.35-12.0.0-RC1851,1.21.1-21.1.35-12.0.0-RC1851,12.0.0}
+[13Nov2024 18:58:02.085] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[13Nov2024 18:58:02.085] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[13Nov2024 18:58:02.086] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file collective-1.21.1-7.84.jar with {collective} mods - versions {7.84}
+[13Nov2024 18:58:02.086] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[13Nov2024 18:58:02.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config collective_neoforge.mixins.json
+[13Nov2024 18:58:02.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar
+[13Nov2024 18:58:02.091] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.72-universal.jar with {neoforge} mods - versions {21.1.72}
+[13Nov2024 18:58:02.091] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[13Nov2024 18:58:02.091] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config neoforge.mixins.json
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file LuckPerms-Sponge-5.4.141.jar with {luckperms} mods - versions {5.4.141}
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/mods/plugins/LuckPerms-Sponge-5.4.141.jar with languages [LanguageSpec[languageName=java_plain, acceptedVersions=1.0]]
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/ca/stellardrift/guice-backport/guice/5.0.1/guice-5.0.1.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/spongepowered/configurate-gson/4.1.2/configurate-gson-4.1.2.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/spongepowered/math/2.0.1/math-2.0.1.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-serializer-configurate4/4.17.0/adventure-serializer-configurate4-4.17.0.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar with languages []
+[13Nov2024 18:58:02.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/org/spongepowered/configurate-extra-guice/4.1.2/configurate-extra-guice-4.1.2.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/option/1.0.0/option-1.0.0.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar with languages []
+[13Nov2024 18:58:02.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/ebs/mcs/neodata/sponge-libraries/javax/inject/javax.inject/1/javax.inject-1.jar with languages []
+[13Nov2024 18:58:02.100] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 29 mod files with 8 mods
+[13Nov2024 18:58:02.102] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[13Nov2024 18:58:02.102] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service spongeneo
+[13Nov2024 18:58:02.102] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service spongeneo
+[13Nov2024 18:58:02.102] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service superclass_change
+[13Nov2024 18:58:02.102] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service superclass_change
+[13Nov2024 18:58:02.102] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service access_widener
+[13Nov2024 18:58:02.102] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service access_widener
+[13Nov2024 18:58:02.129] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModLanguageLoader:
+[13Nov2024 18:58:02.130] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	org.spongepowered.neoforge.lang.provider.JavaPluginLanguageProvider from spongeneo-1.21.1-21.1.35-12.0.0-RC1851-universal.jar > spongeneo-lang.jar
+[13Nov2024 18:58:02.130] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from loader-4.0.29.jar
+[13Nov2024 18:58:02.130] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.lowcodemod.LowCodeModLanguageProvider from loader-4.0.29.jar
+[13Nov2024 18:58:02.130] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from loader-4.0.29.jar
+[13Nov2024 18:58:02.130] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider java_plain, version 4.0.29
+[13Nov2024 18:58:02.132] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 4.0.29
+[13Nov2024 18:58:02.132] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider lowcodefml, version 4.0.29
+[13Nov2024 18:58:02.133] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 4.0.29
+[13Nov2024 18:58:02.141] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[13Nov2024 18:58:02.143] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[13Nov2024 18:58:02.143] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[13Nov2024 18:58:02.146] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 8 mod requirements (8 mandatory, 0 optional)
+[13Nov2024 18:58:02.147] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[13Nov2024 18:58:02.187] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /mnt/ebs/mcs/neodata/mods/collective-1.21.1-7.84.jar
+[13Nov2024 18:58:02.195] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
