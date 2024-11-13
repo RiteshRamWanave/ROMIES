@@ -1,42 +1,42 @@
-[13Nov2024 06:58:58.341] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.72, --fml.fmlVersion, 4.0.29, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[13Nov2024 06:58:58.344] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
-[13Nov2024 06:58:58.345] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-aws
-[13Nov2024 06:58:58.474] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Nov2024 06:58:58.537] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
-[13Nov2024 06:58:58.922] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.72:server]
-[13Nov2024 06:58:58.939] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.72-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]], reader: mod manifest]
-[13Nov2024 06:58:58.952] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "spongeneo-lang.jar" [locator: spongeneo, reader: mod manifest]
-[13Nov2024 06:58:59.098] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spongeneo-mod.jar" [locator: spongeneo, reader: mod manifest]
-[13Nov2024 06:58:59.231] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LuckPerms-Sponge-5.4.141.jar" [locator: plugins directory, reader: sponge manifest]
-[13Nov2024 06:58:59.238] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-7.84.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
-[13Nov2024 06:58:59.241] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justmobheads-1.21.1-8.3.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
-[13Nov2024 06:58:59.250] [main/INFO] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: Scanning and verifying libraries in './sponge-libraries'. Please wait, this may take a moment...
-[13Nov2024 06:58:59.302] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "javax.inject-1.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.307] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-yaml-4.1.2.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.308] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-plain-4.17.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.310] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-extra-guice-4.1.2.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.310] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "auto-service-annotations-1.1.1.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.312] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "annotations-24.1.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.313] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "option-1.0.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.314] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "math-2.0.1.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.315] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "snakeyaml-1.28.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.316] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-api-1.3.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.317] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-serializer-configurate4-4.17.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.318] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-api-4.17.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.318] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-legacy-4.17.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.319] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-key-4.17.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.320] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-gson-4.17.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.321] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "aopalliance-1.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.324] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-gson-4.1.2.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.324] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-json-4.17.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.326] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-string-1.3.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.327] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "caffeine-3.1.8.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.328] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "guice-5.0.1.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.328] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-minimessage-4.17.0.jar" [locator: spongeneo]
-[13Nov2024 06:58:59.370] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[13Nov2024 06:58:59.370] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
-[13Nov2024 06:58:59.371] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.72.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
-[13Nov2024 06:58:59.372] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[13Nov2024 06:59:57.777] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.72, --fml.fmlVersion, 4.0.29, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[13Nov2024 06:59:57.780] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
+[13Nov2024 06:59:57.781] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-aws
+[13Nov2024 06:59:57.948] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Nov2024 06:59:58.028] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/mnt/ebs/mcs/neodata/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
+[13Nov2024 06:59:58.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.72:server]
+[13Nov2024 06:59:58.395] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.72-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.72/neoforge-21.1.72-universal.jar]], reader: mod manifest]
+[13Nov2024 06:59:58.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "spongeneo-lang.jar" [locator: spongeneo, reader: mod manifest]
+[13Nov2024 06:59:58.550] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spongeneo-mod.jar" [locator: spongeneo, reader: mod manifest]
+[13Nov2024 06:59:58.647] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LuckPerms-Sponge-5.4.141.jar" [locator: plugins directory, reader: sponge manifest]
+[13Nov2024 06:59:58.654] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-7.84.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
+[13Nov2024 06:59:58.662] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justmobheads-1.21.1-8.3.jar" [locator: {mods folder locator at /mnt/ebs/mcs/neodata/mods}, reader: mod manifest]
+[13Nov2024 06:59:58.676] [main/INFO] [org.spongepowered.neoforge.applaunch.loading.moddiscovery.library.LibraryManager/]: Scanning and verifying libraries in './sponge-libraries'. Please wait, this may take a moment...
+[13Nov2024 06:59:58.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-extra-guice-4.1.2.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.744] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "caffeine-3.1.8.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.744] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-plain-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.745] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "auto-service-annotations-1.1.1.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.745] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-legacy-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.746] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "snakeyaml-1.28.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.747] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-api-1.3.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.749] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "option-1.0.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.749] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "javax.inject-1.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.750] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-api-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.750] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-serializer-configurate4-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.754] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-yaml-4.1.2.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.755] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-key-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.756] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "annotations-24.1.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.756] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "math-2.0.1.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.757] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-minimessage-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.759] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-string-1.3.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.759] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-json-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "guice-5.0.1.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.762] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-gson-4.1.2.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.763] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "aopalliance-1.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.764] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-gson-4.17.0.jar" [locator: spongeneo]
+[13Nov2024 06:59:58.808] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13Nov2024 06:59:58.808] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2024 06:59:58.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.72.jar" [parent: neoforge-21.1.72-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2024 06:59:58.812] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -46,4 +46,315 @@
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.72 (neoforge)
 		SpongeNeo 1.21.1-21.1.35-12.0.0-RC1851 (spongeneo)
-[13Nov2024 06:59:01.747] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[13Nov2024 07:00:00.763] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[13Nov2024 07:00:00.820] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[13Nov2024 07:00:02.998] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Nov2024 07:00:17.747] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.84.
+[13Nov2024 07:00:17.835] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.72, for MC 1.21.1
+[13Nov2024 07:00:19.015] [modloading-worker-0/INFO] [luckperms/]:         __    
+[13Nov2024 07:00:19.015] [modloading-worker-0/INFO] [luckperms/]:   |    |__)   LuckPerms v5.4.141
+[13Nov2024 07:00:19.015] [modloading-worker-0/INFO] [luckperms/]:   |___ |      Running on Sponge - SpongeNeo
+[13Nov2024 07:00:19.015] [modloading-worker-0/INFO] [luckperms/]: 
+[13Nov2024 07:00:19.016] [modloading-worker-0/INFO] [luckperms/]: Loading configuration...
+[13Nov2024 07:00:19.248] [modloading-worker-0/INFO] [luckperms/]: Loading storage provider... [H2]
+[13Nov2024 07:00:19.732] [modloading-worker-0/INFO] [luckperms/]: Loading internal permission managers...
+[13Nov2024 07:00:19.812] [modloading-worker-0/INFO] [luckperms/]: Performing initial data load...
+[13Nov2024 07:00:19.922] [modloading-worker-0/INFO] [luckperms/]: Successfully enabled. (took 976ms)
+[13Nov2024 07:00:19.987] [modloading-worker-0/INFO] [sponge/]: Registered service [PaginationService] to plugin 'sponge'.
+[13Nov2024 07:00:20.006] [modloading-worker-0/INFO] [spongeneo/]: SpongeNeo v1.21.1-21.1.35-12.0.0-RC1851 initialized
+[13Nov2024 07:00:20.235] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13Nov2024 07:00:21.703] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
+[13Nov2024 07:00:21.703] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mnt/ebs/mcs/neodata/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
+[13Nov2024 07:00:23.060] [main/INFO] [sponge/]: Layer DIMENSIONS
+[13Nov2024 07:00:23.273] [main/INFO] [sponge/]: Layer RELOADABLE
+[13Nov2024 07:00:25.093] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[13Nov2024 07:00:25.596] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[13Nov2024 07:00:26.405] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[13Nov2024 07:00:26.406] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Nov2024 07:00:26.406] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Nov2024 07:00:26.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Nov2024 07:00:26.441] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Nov2024 07:00:26.498] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Nov2024 07:00:26.546] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Nov2024 07:00:26.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Nov2024 07:00:26.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Nov2024 07:00:26.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Nov2024 07:00:26.621] [Server thread/INFO] [sponge/]: Registered service [BanService] to plugin 'sponge'.
+[13Nov2024 07:00:26.622] [Server thread/INFO] [sponge/]: Registered service [ContextService] to plugin 'luckperms'.
+[13Nov2024 07:00:26.624] [Server thread/INFO] [sponge/]: Registered service [PermissionService] to plugin 'luckperms'.
+[13Nov2024 07:00:26.626] [Server thread/INFO] [sponge/]: Registered service [WhitelistService] to plugin 'sponge'.
+[13Nov2024 07:00:26.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Nov2024 07:00:26.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:overworld' (minecraft:overworld)
+[13Nov2024 07:00:27.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_nether' (minecraft:the_nether)
+[13Nov2024 07:00:37.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_end' (minecraft:the_end)
+[13Nov2024 07:00:37.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for world 'minecraft:overworld' (minecraft:overworld)
+[13Nov2024 07:00:38.425] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Nov2024 07:00:38.427] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Nov2024 07:00:38.427] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Nov2024 07:00:38.755] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Nov2024 07:00:39.210] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[13Nov2024 07:00:39.765] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[13Nov2024 07:00:40.400] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3191 ms
+[13Nov2024 07:00:40.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.838s)! For help, type "help"
+[13Nov2024 07:00:40.445] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[13Nov2024 14:23:39.335] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/179, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-670.28, y=71.00, z=-2412.24]] logged in to world 'minecraft:overworld' with entity id 179 at (-670.2770766868299, 71.0, -2412.242077673065)
+[13Nov2024 14:23:47.898] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[13Nov2024 14:23:59.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PROSM07: Teleported PROSM07 to -666.500000, 100.000000, -2407.500000]
+[13Nov2024 14:25:34.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 fell from a high place
+[13Nov2024 14:29:37.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PROSM07: Teleported PROSM07 to -666.500000, 79.000000, -2407.500000]
+[13Nov2024 14:31:28.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PROSM07: Teleported PROSM07 to -659.500000, 40.000000, -2456.500000]
+[13Nov2024 14:31:52.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PROSM07: Teleported PROSM07 to -660.500000, 40.000000, -2457.400000]
+[13Nov2024 14:32:22.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PROSM07: Teleported PROSM07 to -660.500000, 400.000000, -2457.400000]
+[13Nov2024 14:32:26.957] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:32:26.961] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:32:26.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:32:27.010] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Nov2024 14:32:31.943] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/2302, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=240.32, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 2302 at (-660.5, 240.32346386745758, -2457.4)
+[13Nov2024 14:32:35.756] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:32:35.805] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:32:35.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:32:40.237] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/2403, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=123.05, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 2403 at (-660.5, 123.05398015230415, -2457.4)
+[13Nov2024 14:32:44.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:32:44.324] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:32:44.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:32:44.401] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Nov2024 14:32:48.415] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/2636, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=-14.98, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 2636 at (-660.5, -14.978783988930505, -2457.4)
+[13Nov2024 14:32:50.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 fell from a high place
+[13Nov2024 14:33:44.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PROSM07: Teleported PROSM07 to -660.500000, 400.000000, -2457.400000]
+[13Nov2024 14:33:48.159] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:33:48.212] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:33:48.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:33:55.826] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/3217, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=261.97, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 3217 at (-660.5, 261.96723585876515, -2457.4)
+[13Nov2024 14:33:59.896] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:33:59.956] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:33:59.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:34:05.162] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/3371, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=120.89, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 3371 at (-660.5, 120.89352425467388, -2457.4)
+[13Nov2024 14:34:09.382] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:34:09.384] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:34:09.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:34:09.434] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Nov2024 14:34:16.418] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/3611, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=-32.52, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 3611 at (-660.5, -32.5163071063492, -2457.4)
+[13Nov2024 14:34:37.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PROSM07: Teleported PROSM07 to -660.500000, 400.000000, -2457.400000]
+[13Nov2024 14:34:41.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:34:41.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:34:41.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:34:47.346] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/3883, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=243.46, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 3883 at (-660.5, 243.46476221959247, -2457.4)
+[13Nov2024 14:34:51.469] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:34:51.529] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:34:51.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:34:55.930] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/4066, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=99.33, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 4066 at (-660.5, 99.3325220423747, -2457.4)
+[13Nov2024 14:34:59.963] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 was kicked for floating too long!
+[13Nov2024 14:35:00.027] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Flying is not enabled on this server
+[13Nov2024 14:35:00.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 14:35:04.339] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/4306, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-660.50, y=-38.70, z=-2457.40]] logged in to world 'minecraft:overworld' with entity id 4306 at (-660.5, -38.70024209885997, -2457.4)
+[13Nov2024 14:36:32.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PROSM07: Teleported PROSM07 to -666.500000, 79.000000, -2407.500000]
+[13Nov2024 14:39:13.111] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PROSM07 lost connection: Disconnected
+[13Nov2024 14:39:13.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 left the game
+[13Nov2024 16:03:06.002] [Netty Epoll Server IO #1/ERROR] [sponge/]: Disconnected due to error
+io.netty.handler.timeout.ReadTimeoutException: null
+[13Nov2024 16:03:32.371] [Netty Epoll Server IO #1/ERROR] [sponge/]: Disconnected due to error
+io.netty.handler.timeout.ReadTimeoutException: null
+[13Nov2024 16:03:59.349] [Netty Epoll Server IO #3/ERROR] [sponge/]: Disconnected due to error
+io.netty.handler.timeout.ReadTimeoutException: null
+[13Nov2024 16:04:13.141] [Netty Epoll Server IO #3/ERROR] [sponge/]: Disconnected due to error
+io.netty.handler.timeout.ReadTimeoutException: null
+[13Nov2024 16:04:25.780] [Netty Epoll Server IO #2/ERROR] [sponge/]: Disconnected due to error
+io.netty.handler.timeout.ReadTimeoutException: null
+[13Nov2024 17:21:15.368] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PROSM07[ServerPlayer['PROSM07'/5481, l='ServerLevel[key=ResourceKey[minecraft:dimension / minecraft:overworld],worldType=minecraft:overworld]', x=-756.70, y=71.00, z=-2390.95]] logged in to world 'minecraft:overworld' with entity id 5481 at (-756.703226469547, 71.0, -2390.9543669251066)
+[13Nov2024 17:42:55.755] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:42:55.755] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:42:55.756] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:42:55.756] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:44:25.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 has made the advancement [Country Lode, Take Me Home]
+[13Nov2024 17:47:10.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 has made the advancement [Ol' Betsy]
+[13Nov2024 17:48:23.063] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:23.064] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:23.065] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:23.065] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:29.312] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:29.313] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:29.313] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:29.313] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:31.960] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:31.961] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:31.961] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:48:31.962] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:49:08.264] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:49:08.265] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:49:08.266] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:iron_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:49:08.267] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:golden_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:48.412] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:48.413] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:48.413] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:48.413] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:50.061] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:50.062] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:50.062] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:50.062] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:51.611] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:51.611] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:51.612] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:51.613] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:53.061] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:53.062] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:53.062] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:54.611] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:54.611] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:54.611] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:54.612] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:56.110] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:56.111] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:56.111] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:56.111] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:57.710] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:57.711] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:57.711] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:59.410] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:59.410] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:50:59.411] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:01.710] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:01.710] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:01.711] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:01.711] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:07.759] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:07.760] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:07.760] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:07.760] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:38.411] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:38.411] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:51.209] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:53.214] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:53.214] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:53.215] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:51:53.215] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:08.811] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:08.812] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:08.813] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:08.814] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:10.961] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:10.962] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:10.963] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:10.963] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:12.761] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:12.762] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:12.763] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:13.912] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:13.912] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:13.913] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:13.913] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:14.978] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:15.460] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:15.461] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:15.461] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:15.461] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:31.061] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:31.061] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:31.061] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:31.063] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:38.610] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=5], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_helmet, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:38.610] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=6], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_chestplate, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:38.611] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:38.611] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:42.010] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=7], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_leggings, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:52:42.011] [Server thread/WARN] [sponge/]: Ignoring slot transaction on InventoryMenu during EntityTickContext. SlotTransaction[slot=SlotAdapter[ordinal=8], original=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], default=SpongeItemStackSnapshot[itemType=minecraft:netherite_boots, quantity=1], custom=Optional.empty, valid=true]
+No Event will be fired for this
+[13Nov2024 17:56:47.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 has made the advancement [Tactical Fishing]
+[13Nov2024 17:58:28.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PROSM07 has made the advancement [Glow and Behold!]
+[13Nov2024 18:00:01.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[13Nov2024 18:00:01.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[13Nov2024 18:00:01.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Nov2024 18:00:01.667] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[13Nov2024 18:00:01.686] [Server thread/INFO] [luckperms/]: Closing storage...
