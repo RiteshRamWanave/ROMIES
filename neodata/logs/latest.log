@@ -358,3 +358,8 @@ No Event will be fired for this
 [13Nov2024 18:00:01.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
 [13Nov2024 18:00:01.667] [Server thread/INFO] [luckperms/]: Starting shutdown process...
 [13Nov2024 18:00:01.686] [Server thread/INFO] [luckperms/]: Closing storage...
+[13Nov2024 18:00:01.769] [Server thread/INFO] [luckperms/]: Goodbye!
+[13Nov2024 18:00:01.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Nov2024 18:00:01.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Nov2024 18:00:01.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Nov2024 18:00:02.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
