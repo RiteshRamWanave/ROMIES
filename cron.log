@@ -34576,3 +34576,10 @@ To github.com:RiteshRamWanave/ROMIES.git
    2e8f33f..f97f6c8  main -> main
 [main 1f96fcb] Auto commit
  21 files changed, 4165 insertions(+)
+[main 962659e] Auto commit
+ 34 files changed, 5119 insertions(+), 5119 deletions(-)
+To github.com:RiteshRamWanave/ROMIES.git
+   f97f6c8..962659e  main -> main
+To github.com:RiteshRamWanave/ROMIES.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 962659e86b1f83eec9a556ae36fb183691707b4f but expected f97f6c8468c3406b7437ab6ee127d200f67e7acf)
+error: failed to push some refs to 'github.com:RiteshRamWanave/ROMIES.git'
