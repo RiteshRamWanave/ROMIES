@@ -4056,3 +4056,12 @@ No Event will be fired for this
 [14Nov2024 17:16:15.525] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e646579[id=58012caf-6b57-3df9-ad28-57082aa1b654,name=PROSM07,properties={}] lost connection: Timed out
 [14Nov2024 17:16:55.574] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@57732a64[id=58012caf-6b57-3df9-ad28-57082aa1b654,name=PROSM07,properties={}] lost connection: Timed out
 [14Nov2024 18:00:02.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[14Nov2024 18:00:02.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[14Nov2024 18:00:02.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[14Nov2024 18:00:02.194] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[14Nov2024 18:00:02.202] [Server thread/INFO] [luckperms/]: Closing storage...
+[14Nov2024 18:00:02.248] [Server thread/INFO] [luckperms/]: Goodbye!
+[14Nov2024 18:00:02.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Nov2024 18:00:02.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Nov2024 18:00:02.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Nov2024 18:00:02.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
