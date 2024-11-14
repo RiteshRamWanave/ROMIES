@@ -86,3 +86,24 @@
 [14Nov2024 06:44:57.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
 [14Nov2024 06:44:57.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:overworld' (minecraft:overworld)
 [14Nov2024 06:44:58.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_nether' (minecraft:the_nether)
+[14Nov2024 06:45:05.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_end' (minecraft:the_end)
+[14Nov2024 06:45:05.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for world 'minecraft:overworld' (minecraft:overworld)
+[14Nov2024 06:45:07.101] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2024 06:45:07.101] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2024 06:45:07.103] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2024 06:45:07.178] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2024 06:45:07.652] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2024 06:45:08.193] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[14Nov2024 06:45:09.098] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3447 ms
+[14Nov2024 06:45:09.104] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.678s)! For help, type "help"
+[14Nov2024 06:45:09.155] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[14Nov2024 06:45:09.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[14Nov2024 06:45:11.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[14Nov2024 06:45:11.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[14Nov2024 06:45:12.743] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[14Nov2024 06:45:12.746] [Server thread/INFO] [luckperms/]: Closing storage...
+[14Nov2024 06:45:13.052] [Server thread/INFO] [luckperms/]: Goodbye!
+[14Nov2024 06:45:13.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Nov2024 06:45:13.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Nov2024 06:45:13.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Nov2024 06:45:21.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
