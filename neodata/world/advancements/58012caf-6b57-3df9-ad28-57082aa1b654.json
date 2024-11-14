@@ -2833,7 +2833,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cat": "2024-10-22 12:56:04 +0000"
+      "minecraft:cat": "2024-10-22 12:56:04 +0000",
+      "minecraft:bee": "2024-11-14 17:12:54 +0000"
     },
     "done": false
   },
@@ -4775,15 +4776,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/make_a_sign_glow": {
+  "minecraft:recipes/tools/recovery_compass": {
     "criteria": {
-      "make_a_sign_glow": "2024-11-13 17:58:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tactical_fishing": {
-    "criteria": {
-      "tropical_fish_bucket": "2024-11-13 17:56:47 +0000"
+      "has_echo_shard": "2024-11-13 17:24:22 +0000"
     },
     "done": true
   },
@@ -4793,9 +4788,9 @@
     },
     "done": false
   },
-  "minecraft:recipes/tools/recovery_compass": {
+  "minecraft:recipes/decorations/decorated_pot_simple": {
     "criteria": {
-      "has_echo_shard": "2024-11-13 17:24:22 +0000"
+      "has_brick": "2024-11-13 17:28:37 +0000"
     },
     "done": true
   },
@@ -4811,9 +4806,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
+  "minecraft:husbandry/tactical_fishing": {
     "criteria": {
-      "has_brick": "2024-11-13 17:28:37 +0000"
+      "tropical_fish_bucket": "2024-11-13 17:56:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2024-11-13 17:58:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/charge_respawn_anchor": {
+    "criteria": {
+      "charge_respawn_anchor": "2024-11-14 12:27:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2024-11-14 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/spyglass_at_ghast": {
+    "criteria": {
+      "spyglass_at_ghast": "2024-11-14 12:41:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2024-11-14 17:11:44 +0000"
     },
     "done": true
   },
