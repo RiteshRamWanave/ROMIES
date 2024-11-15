@@ -279,22 +279,43 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-10-22 10:08:20 +0000",
-      "bread": "2024-10-19 17:21:14 +0000",
-      "cookie": "2024-10-28 19:11:26 +0000",
+      "chicken": "2024-11-15 09:40:56 +0000",
+      "honey_bottle": "2024-11-15 09:42:22 +0000",
       "cooked_mutton": "2024-10-19 17:58:26 +0000",
       "sweet_berries": "2024-10-19 18:38:01 +0000",
       "cooked_beef": "2024-10-19 17:51:55 +0000",
       "chorus_fruit": "2024-10-23 17:58:06 +0000",
       "baked_potato": "2024-10-25 12:27:55 +0000",
+      "beef": "2024-11-15 09:45:01 +0000",
       "porkchop": "2024-10-19 17:13:07 +0000",
-      "golden_carrot": "2024-10-22 18:20:06 +0000",
-      "cooked_rabbit": "2024-10-22 10:55:45 +0000",
-      "cooked_chicken": "2024-10-26 07:46:11 +0000",
+      "tropical_fish": "2024-11-15 09:44:51 +0000",
+      "beetroot_soup": "2024-11-15 10:18:04 +0000",
+      "apple": "2024-11-15 09:48:04 +0000",
+      "spider_eye": "2024-11-15 10:19:50 +0000",
       "potato": "2024-10-19 18:35:54 +0000",
       "cooked_cod": "2024-10-21 15:03:34 +0000",
-      "cod": "2024-10-29 11:51:47 +0000",
-      "cooked_salmon": "2024-10-22 09:13:07 +0000",
+      "rabbit": "2024-11-15 11:41:45 +0000",
+      "poisonous_potato": "2024-11-15 09:38:59 +0000",
       "pumpkin_pie": "2024-10-19 17:47:11 +0000",
+      "mutton": "2024-11-15 11:21:03 +0000",
+      "pufferfish": "2024-11-15 09:54:23 +0000",
+      "bread": "2024-10-19 17:21:14 +0000",
+      "golden_apple": "2024-11-15 10:08:29 +0000",
+      "cookie": "2024-10-28 19:11:26 +0000",
+      "rotten_flesh": "2024-11-15 09:39:35 +0000",
+      "suspicious_stew": "2024-11-15 09:49:31 +0000",
+      "glow_berries": "2024-11-15 09:40:03 +0000",
+      "salmon": "2024-11-15 10:12:30 +0000",
+      "dried_kelp": "2024-11-15 10:22:16 +0000",
+      "melon_slice": "2024-11-15 10:01:10 +0000",
+      "golden_carrot": "2024-10-22 18:20:06 +0000",
+      "beetroot": "2024-11-15 09:47:46 +0000",
+      "cooked_rabbit": "2024-10-22 10:55:45 +0000",
+      "cooked_chicken": "2024-10-26 07:46:11 +0000",
+      "mushroom_stew": "2024-11-15 10:29:34 +0000",
+      "cod": "2024-10-29 11:51:47 +0000",
+      "rabbit_stew": "2024-11-15 10:27:59 +0000",
+      "cooked_salmon": "2024-10-22 09:13:07 +0000",
       "carrot": "2024-10-20 21:57:31 +0000"
     },
     "done": false
@@ -4839,6 +4860,120 @@
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2024-11-14 17:11:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2024-11-15 09:21:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2024-11-15 09:30:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-11-15 09:36:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2024-11-15 09:36:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2024-11-15 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2024-11-15 09:37:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2024-11-15 10:21:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-11-15 11:40:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-11-15 11:40:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-11-15 11:40:16 +0000"
     },
     "done": true
   },
