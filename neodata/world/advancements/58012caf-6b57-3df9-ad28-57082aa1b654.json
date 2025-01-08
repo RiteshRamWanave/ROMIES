@@ -13,6 +13,7 @@
       "minecraft:taiga": "2024-10-19 17:10:43 +0000",
       "minecraft:deep_ocean": "2024-10-21 18:42:24 +0000",
       "minecraft:lush_caves": "2024-10-20 13:25:59 +0000",
+      "minecraft:frozen_ocean": "2025-01-08 14:29:40 +0000",
       "minecraft:desert": "2024-10-19 18:36:26 +0000",
       "minecraft:frozen_river": "2024-10-19 17:14:34 +0000",
       "minecraft:jungle": "2024-10-20 18:10:13 +0000",
@@ -4974,6 +4975,30 @@
   "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
     "criteria": {
       "has_rabbit": "2024-11-15 11:40:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-01-08 14:53:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-01-08 14:41:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-01-08 14:53:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-01-08 14:41:52 +0000"
     },
     "done": true
   },
